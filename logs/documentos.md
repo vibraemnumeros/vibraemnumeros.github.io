@@ -1,11 +1,11 @@
 # Documentos — última execução
 
-Executado em 2026-10-31 05:41 UTC
+Executado em 2026-11-02 20:26 UTC
 
 - vibra_df: 30 no índice, 0 novos, 0 falhas
 - vibra_proventos: 59 no índice, 0 novos, 0 falhas
 - vibra_rating: 17 no índice, 0 novos, 0 falhas
-- IPE Ultrapar: 890 documentos
+- IPE Ultrapar: 891 documentos
 - ultrapar_rel: 40 no índice, 0 novos, 0 falhas
 - ultrapar_df: 52 no índice, 0 novos, 0 falhas
 
