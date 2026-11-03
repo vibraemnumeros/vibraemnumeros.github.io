@@ -1,5 +1,5 @@
 # RAD (ITR/DFP direto da CVM) — última execução
 
-Executado em 2026-11-03 06:46 UTC
+Executado em 2026-11-03 17:52 UTC
 
 Nenhum ITR/DFP novo.
