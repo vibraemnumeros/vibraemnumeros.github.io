@@ -125,7 +125,9 @@ perto(m.ind('receita', '4T16', 'AN') / m.ind('receita', '4T15', 'AN') - 1, 86637
     for (const [k, f] of [['resultado', E.resultado], ['caixa', E.caixa], ['dva', E.dva], ['dra', E.dra]]) { const r = f(p, base); if (!r || !r.fecha) falhas.push(k + ' ' + p + ' ' + base); }
   }
   for (const p of ld('cvm_dmpl').periodos) { const r = E.pl(p); if (!r || !r.fecha) falhas.push('PL ' + p); }
-  const dp = dlrel.periodos; for (let i = 1; i < dp.length; i++) { const r = E.ponteDivida(dp[i - 1], dp[i]); if (!r || !r.fecha) falhas.push('dívida ' + dp[i]); }
+  // dívida: o release pode chegar antes do ITR; sem o fluxo de caixa do período a ponte ainda não existe (não é falha)
+  const dp = dlrel.periodos, comDfc = new Set(m2.periodos('dfc', 'T'));
+  for (let i = 1; i < dp.length; i++) { const r = E.ponteDivida(dp[i - 1], dp[i]); if (!r && !comDfc.has(dp[i])) continue; if (!r || !r.fecha) falhas.push('dívida ' + dp[i]); }
   const pb = m2.periodos('bp', 'T'); for (let i = 4; i < pb.length; i++) for (const lado of ['ativo', 'passivo']) { const r = E.ponteBalanco(pb[i - 4], pb[i], lado); if (!r || !r.fecha) falhas.push('ponte ' + lado + ' ' + pb[i]); }
   assert.deepStrictEqual(falhas, [], 'estruturas que não fecham: ' + falhas.slice(0, 10).join(', ')); n++;
   // valores conferidos à mão (2T26)
