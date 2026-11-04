@@ -270,6 +270,7 @@
   "release:3T23",
   "release:3T24",
   "release:3T25",
+  "release:3T26",
   "release:4T17",
   "release:4T18",
   "release:4T19",
@@ -281,6 +282,16 @@
   "release:4T25"
  ],
  "eventos": [
+  {
+   "data": "2026-11-04",
+   "tipo": "Release de resultados",
+   "titulo": "Dados Financeiros - Press-release",
+   "detalhe": "",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229",
+   "chave": "release:3T26",
+   "registrado_em": "2026-11-04T23:07:12Z",
+   "historico": false
+  },
   {
    "data": "2026-10-16",
    "tipo": "Formulário de Referência",
@@ -3072,5 +3083,5 @@
    "historico": true
   }
  ],
- "atualizado_em": "2026-11-04T21:00:42Z"
+ "atualizado_em": "2026-11-04T23:07:12Z"
 }

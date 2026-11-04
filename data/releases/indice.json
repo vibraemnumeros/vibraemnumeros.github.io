@@ -1,7 +1,17 @@
 {
  "fonte": "CVM — IPE, Press-release (releases de resultados)",
- "atualizado_em": "2026-11-04T21:00:18Z",
+ "atualizado_em": "2026-11-04T23:03:36Z",
  "releases": [
+  {
+   "protocolo": "RAD-1584229",
+   "data_entrega": "2026-11-04",
+   "data_referencia": "2026-11-04",
+   "assunto": "Dados Financeiros - Press-release",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229",
+   "arquivo": "2026-11-04_1584229.txt",
+   "paginas_bytes": 1676260,
+   "provisorio": true
+  },
   {
    "protocolo": "024295IPE300620260142328555-32",
    "data_entrega": "2026-08-14",

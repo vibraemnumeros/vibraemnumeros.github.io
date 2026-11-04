@@ -4777,10 +4777,139 @@
    },
    "release": "Divulgação de Resultados do 4T 2017 e 2017.",
    "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=600989&numSequencia=143785&numVersao=2"
+  },
+  "3T26|T|3T25|T": {
+   "hash": "17bb7843c6a5e6aa",
+   "gerado_em": "2026-11-04T23:04:01Z",
+   "modelo": "claude-sonnet-5-5",
+   "tipo": "anual",
+   "secoes": {
+    "sumario": [
+     "O 3º trimestre de 2026 transcorreu em ambiente setorial ainda desafiador, com cenário internacional influenciado pelos desdobramentos do conflito no Oriente Médio. Os preços internacionais de combustíveis permaneceram elevados, sobretudo em setembro, e o Brasil, como importador de diesel e gasolina, ficou exposto à menor disponibilidade de produto e à maior volatilidade de preços. A Companhia priorizou o abastecimento dos clientes contratados e a execução da estratégia de expansão da Rede de Postos com foco em qualidade.",
+     "O EBITDA Ajustado consolidado foi de R$ 4.288 milhões (R$ 4,3 bilhões), alta de 137,4% frente ao 3º trimestre de 2025, quando somou R$ 1.806 milhões, uma diferença de R$ 2.482 milhões. O volume vendido total foi de 9.612 mil m³, 3,8% acima do 3º trimestre de 2025 (9.258 mil m³). A margem EBITDA Ajustado por m³ da distribuição, sem Renováveis, chegou a R$ 427/m³, contra R$ 177/m³ no mesmo período de 2025.",
+     "Na estrutura de capital, a dívida líquida divulgada pela Companhia encerrou o período em R$ 14.389 milhões (R$ 14,4 bilhões), 23,3% inferior à do 3º trimestre de 2025 (R$ 18.750 milhões). A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, foi de 0,98x, ante 2,84x um ano antes. A redução do endividamento e a ampliação do embandeiramento foram as duas frentes de destinação dos recursos operacionais no trimestre."
+    ],
+    "operacional": [
+     "O volume total vendido cresceu 3,8% frente ao 3º trimestre de 2025, para 9.612 mil m³. Na Rede de Postos, o volume foi de 6.087 mil m³, alta de 5,8% sobre os 5.756 mil m³ do 3º trimestre de 2025. A Companhia associa esse avanço à continuidade do movimento de embandeiramento, à conversão de novos postos com operadores de referência e ao ambiente de menor oferta de produtos, somado aos avanços no combate às irregularidades no setor, que reforçaram a proposta de valor da Rede Embandeirada, baseada em segurança de abastecimento, capilaridade logística e qualidade dos combustíveis.",
+     "O EBITDA Ajustado da Rede de Postos foi de R$ 2.912 milhões (R$ 2,9 bilhões), alta de 157,5% frente ao 3º trimestre de 2025 (R$ 1.131 milhões), com diferença de R$ 1.781 milhões. A margem do segmento foi de R$ 478/m³, contra R$ 196/m³ no 3º trimestre de 2025 (+143,5%). Ao desconsiderar os efeitos de itens não recorrentes, o segmento apresentou EBITDA Ajustado Recorrente de R$ 2,5 bilhões, alta de 152% frente ao 3º trimestre de 2025, o que indica que parte do EBITDA Ajustado do segmento no trimestre decorre desses itens.",
+     "No B2B, o volume foi de 3.525 mil m³, 0,7% acima dos 3.501 mil m³ do 3º trimestre de 2025. A Companhia seguiu a estratégia de qualificação do mix, com aumento da participação de produtos aditivados, de margens superiores, no volume de diesel vendido em relação ao 3º trimestre de 2025. O EBITDA Ajustado do B2B foi de R$ 1.307 milhões (R$ 1,3 bilhão), alta de 132,1% sobre os R$ 563 milhões do 3º trimestre de 2025 (diferença de R$ 744 milhões). A margem foi de R$ 371/m³, contra R$ 161/m³ (+130,6%). O EBITDA Ajustado Recorrente do segmento foi de R$ 1,3 bilhão, alta de 139% frente ao 3º trimestre de 2025.",
+     "Em Renováveis, o EBITDA Ajustado foi de R$ 184 milhões, 7,6% acima dos R$ 171 milhões do 3º trimestre de 2025 (diferença de R$ 13 milhões). A Comerc registrou evolução sobre o 3º trimestre de 2025 em Geração Centralizada, Geração Distribuída e Soluções em Energia, além de ganhos de eficiência operacional refletidos na redução das despesas. O resultado ocorreu apesar do cenário desafiador para comercialização de energia e do curtailment nas usinas de GC Solar."
+    ],
+    "resultado": [
+     "O EBITDA Ajustado consolidado do 3º trimestre de 2026 foi de R$ 4.288 milhões, 137,4% acima do 3º trimestre de 2025 (R$ 1.806 milhões). Do aumento de R$ 2.482 milhões, a Rede de Postos respondeu por R$ 1.781 milhões, o B2B por R$ 744 milhões e Renováveis por R$ 13 milhões. A Companhia manteve a trajetória de evolução operacional e financeira em um cenário de alta volatilidade, expandindo a Rede de Postos e o volume de vendas e assegurando o suprimento aos clientes contratados.",
+     "A expansão do resultado combinou volume maior, de 3,8%, e margem por m³ substancialmente superior: na distribuição, sem Renováveis, a margem foi de R$ 427/m³, contra R$ 177/m³ no 3º trimestre de 2025, alta de 141,8%. A Companhia indica que, em um ambiente de preços internacionais elevados e menor disponibilidade de produto, otimizou seus fluxos de suprimento e honrou seus compromissos comerciais. O EBITDA Ajustado dos segmentos de distribuição inclui efeitos de itens não recorrentes, razão pela qual o EBITDA Ajustado Recorrente foi apresentado de forma separada: R$ 2,5 bilhões na Rede de Postos (+152%) e R$ 1,3 bilhão no B2B (+139%), ambos frente ao 3º trimestre de 2025.",
+     "A base de comparação do 3º trimestre de 2025 tinha características próprias. Naquele período, a margem EBITDA Ajustada Recorrente da distribuição, que exclui itens não recorrentes, recuperações tributárias e resultados com alienação de imóveis, foi de R$ 159/m³, mesmo com perdas com inventários. As despesas operacionais ajustadas somaram R$ 822 milhões, já excluídas recuperações tributárias de R$ 78 milhões e venda de imóveis de R$ 83 milhões, com maiores gastos com frete (+R$ 27 milhões), serviços, mídia e engajamento. O Lucro Líquido Ajustado daquele trimestre foi de R$ 546 milhões."
+    ],
+    "balanco": [
+     "A dívida líquida divulgada pela Companhia encerrou o 3º trimestre de 2026 em R$ 14.389 milhões (R$ 14,4 bilhões), contra R$ 18.750 milhões ao final do 3º trimestre de 2025. A redução foi de 23,3%, equivalente a R$ 4.361 milhões. A Companhia mantém a redução do endividamento como uma das prioridades, em continuidade ao processo de desalavancagem iniciado nos trimestres anteriores.",
+     "A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, foi de 0,98x ao final do 3º trimestre de 2026, ante 2,84x no 3º trimestre de 2025, uma redução de 1,85x. A queda combina menor dívida líquida e maior EBITDA Ajustado. A Companhia associa o movimento ao compromisso de ter um balanço mais saudável, com maior flexibilidade financeira e melhor preparo para novos ciclos de crescimento.",
+     "Em setembro, a Companhia divulgou fato relevante e comunicados ao mercado sobre a 11ª emissão de debêntures, incluindo alteração de cronograma, razão de permutabilidade e o resultado do procedimento de bookbuilding. Em agosto, houve comunicado ao mercado sobre juros sobre o capital próprio. No trimestre, a variação de capital de giro representou consumo de caixa, associado ao mix de produtos e fornecedores em relação ao trimestre anterior e à maior utilização de prazo de pagamento por um cliente do mercado de aviação."
+    ],
+    "caixa": [
+     "O Fluxo de Caixa Operacional do 3º trimestre de 2026 ficou abaixo do registrado no 3º trimestre de 2025, quando foi de R$ 3,5 bilhões, valor então influenciado pelo volume vendido e por eventos não recorrentes de variação de capital de giro. No 3º trimestre de 2026, a variação do capital de giro consumiu caixa, por efeito do mix de produtos e fornecedores em comparação ao trimestre anterior e da maior utilização de prazo de pagamento de um cliente do mercado de aviação.",
+     "A Companhia direcionou os recursos do fluxo operacional a duas frentes: a redução do endividamento, que levou a dívida líquida a R$ 14,4 bilhões e a alavancagem a 0,98x, e a ampliação do embandeiramento da Rede de Postos, prioridade de alocação de capital voltada ao fortalecimento e à qualidade da Rede, a ganhos de competitividade e à captura de oportunidades comerciais.",
+     "O Capex de Distribuição inclui investimentos em tecnologia e Inteligência Artificial, com o objetivo de aumentar a produtividade e a eficiência operacional. O Capex de Renováveis segue em trajetória descendente no acumulado do ano frente aos nove primeiros meses de 2025, em consequência da finalização dos projetos de geração de energia que estavam em construção. Em agosto, a Companhia comunicou ao mercado a deliberação sobre juros sobre o capital próprio, e em setembro conduziu a 11ª emissão de debêntures."
+    ],
+    "perspectivas": [
+     "A administração indica que seguirá focada em garantir o abastecimento dos clientes, mesmo com a volatilidade geopolítica nos mercados de petróleo e derivados, e em executar a estratégia com disciplina, fortalecendo a posição competitiva e buscando criar valor de longo prazo para os acionistas.",
+     "O embandeiramento permanece como prioridade, com foco na qualidade da Rede e na atração de operadores de excelência, apoiado pelo combate às irregularidades no setor e pelo ambiente de restrição de oferta. No B2B, a gestão do mix de produtos continuará sendo executada. A alocação de capital seguirá concentrada nos negócios em que a Companhia vê vantagens competitivas e capacidade de execução, de forma aderente ao planejamento estratégico de longo prazo, com a continuidade do processo de desalavancagem."
+    ]
+   },
+   "release": "Dados Financeiros - Press-release",
+   "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229",
+   "itens_hash": "35a06be6f248ca7a"
+  },
+  "3T26|9M|3T25|9M": {
+   "hash": "3efb59623d661891",
+   "gerado_em": "2026-11-04T23:04:01Z",
+   "modelo": "claude-sonnet-5-5",
+   "tipo": "nove_meses",
+   "secoes": {
+    "sumario": [
+     "Nos 9 meses de 2026, a Companhia operou em um ambiente setorial desafiador, com cenário internacional ainda influenciado pelos desdobramentos do conflito no Oriente Médio. Os preços internacionais de combustíveis permaneceram elevados, sobretudo em setembro, e o Brasil, como importador de Diesel e Gasolina, ficou exposto à menor disponibilidade de produto e à maior volatilidade de preços. A Companhia otimizou seus fluxos de suprimento e manteve o abastecimento aos clientes contratados.",
+     "A estratégia seguiu apoiada na expansão e na qualificação da Rede de Postos Embandeirada, na gestão do mix de produtos no B2B e na priorização da alocação de capital no negócio principal. O ambiente de oferta restrita e os avanços no combate às irregularidades no setor reforçaram a proposta de valor da Rede, o que se refletiu na conversão de novos postos com operadores de referência.",
+     "O EBITDA Ajustado consolidado foi de R$ 11.991 milhões (R$ 12,0 bilhões) nos 9 meses de 2026, ante R$ 5.303 milhões (R$ 5,3 bilhões) nos 9 meses de 2025, variação de +126,1% (diferença de R$ 6.688 milhões). O volume vendido total somou 27.402 mil m³, alta de +3,8% frente aos 9 meses de 2025.",
+     "Na estrutura de capital, a dívida líquida divulgada pela Companhia encerrou o período em R$ 14.389 milhões (R$ 14,4 bilhões), ante R$ 18.750 milhões (R$ 18,8 bilhões) ao fim dos 9 meses de 2025, redução de −23,3%. A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, foi de 0,98x, ante 2,84x, queda de −1,85x."
+    ],
+    "operacional": [
+     "O volume vendido total foi de 27.402 mil m³ nos 9 meses de 2026, ante 26.392 mil m³ nos 9 meses de 2025 (+3,8%). O crescimento concentrou-se na Rede de Postos, que vendeu 17.392 mil m³, ante 16.436 mil m³ (+5,8%). O avanço acompanha o ritmo de embandeiramento dos últimos trimestres e a qualidade dos operadores atraídos, em um ambiente de menor oferta de produtos e de combate às irregularidades no setor.",
+     "No B2B, o volume foi de 10.010 mil m³, ante 9.955 mil m³ nos 9 meses de 2025 (+0,6%), em carteira diversificada de clientes de setores essenciais da economia. A Companhia seguiu executando a estratégia de qualificação do mix, com maior participação de produtos aditivados, de margens superiores, no volume de Diesel vendido; essa evolução foi observada no 3T26 frente ao 3T25.",
+     "O EBITDA Ajustado da Rede de Postos foi de R$ 7.299 milhões (R$ 7,3 bilhões), ante R$ 2.776 milhões (R$ 2,8 bilhões) nos 9 meses de 2025 (+162,9%, diferença de R$ 4.523 milhões). A margem por m³ passou de R$ 169/m³ para R$ 420/m³ (+148,5%). Como o volume cresceu em escala bem inferior à do resultado, a variação decorre sobretudo da margem unitária. Itens não recorrentes tiveram peso distinto ao longo de 2026: no 3T26, o EBITDA Ajustado do segmento foi de R$ 2,9 bilhões e o EBITDA Ajustado Recorrente, de R$ 2,5 bilhões; no 2T26, R$ 2,7 bilhões e R$ 2,5 bilhões; no 1T26, ambos em R$ 1,7 bilhão.",
+     "O EBITDA Ajustado do B2B somou R$ 4.508 milhões (R$ 4,5 bilhões), ante R$ 2.184 milhões (R$ 2,2 bilhões) (+106,4%, diferença de R$ 2.324 milhões), com margem de R$ 450/m³, ante R$ 219/m³ (+105,3%). No 1T26, o EBITDA Ajustado do segmento foi de R$ 1,5 bilhão, e o recorrente, de R$ 0,7 bilhão, o que indica efeitos não recorrentes no trimestre; no 2T26 e no 3T26, os valores recorrente e ajustado foram de R$ 1,7 bilhão e R$ 1,3 bilhão, respectivamente. Na distribuição, sem Renováveis, a margem foi de R$ 419/m³, ante R$ 178/m³ (+135,3%). Em Renováveis, o EBITDA Ajustado foi de R$ 519 milhões, ante R$ 608 milhões (−14,6%, diferença de −R$ 89 milhões). No 3T26, a Comerc registrou evolução sobre o 3T25 em Geração Centralizada, Geração Distribuída e Soluções em Energia, com redução de despesas, em período de cenário desafiador para a comercialização de energia e de curtailment nas usinas de GC Solar."
+    ],
+    "resultado": [
+     "O EBITDA Ajustado consolidado cresceu +126,1% frente aos 9 meses de 2025, de R$ 5.303 milhões para R$ 11.991 milhões. A Rede de Postos respondeu pela maior parcela do aumento, com diferença de R$ 4.523 milhões, seguida pelo B2B, com R$ 2.324 milhões. Renováveis teve movimento contrário, com −R$ 89 milhões.",
+     "A base de comparação dos 9 meses de 2025 foi afetada por perdas com inventários. No 2T25, as reduções de preços resultaram em perda relevante com inventários, e o EBITDA Ajustado da distribuição foi de R$ 1,2 bilhão (R$ 143/m³); excluídos efeitos não recorrentes, como vendas de imóveis e recuperações tributárias, o EBITDA Ajustado Recorrente foi de R$ 1,0 bilhão (R$ 113/m³), redução explicada principalmente por essas perdas. No 3T25, a margem recorrente foi de R$ 159/m³, também com perdas com inventários. No 1T25, houve recuperações tributárias de R$ 394 milhões e vendas de imóveis de R$ 37 milhões.",
+     "Em 2026, a margem por m³ da distribuição, sem Renováveis, subiu de R$ 178/m³ para R$ 419/m³ (+135,3%), em contexto de preços internacionais elevados e menor oferta de produtos. O volume total, de +3,8%, contribuiu em escala menor. Entre os segmentos, a margem da Rede de Postos passou de R$ 169/m³ para R$ 420/m³, e a do B2B, de R$ 219/m³ para R$ 450/m³.",
+     "A Companhia também concluiu em abril de 2026 a saída do capital social da Evolua Etanol, conforme fatos relevantes divulgados."
+    ],
+    "balanco": [
+     "A dívida líquida divulgada pela Companhia foi de R$ 14.389 milhões (R$ 14,4 bilhões) ao fim dos 9 meses de 2026, ante R$ 18.750 milhões (R$ 18,8 bilhões) no mesmo ponto de 2025, redução de −23,3% (−R$ 4.361 milhões). A redução do endividamento permaneceu como prioridade em 2026. No 3T26, a Companhia direcionou o fluxo de caixa operacional à redução da dívida e à ampliação do embandeiramento, e a dívida bruta ajustada e as disponibilidades de caixa foram menores que as do 2T26.",
+     "A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado de 12 meses, foi de 0,98x, ante 2,84x ao fim dos 9 meses de 2025 (−1,85x). A queda combina menor dívida líquida e maior EBITDA Ajustado. A trajetória de desalavancagem, iniciada em 2025, busca um balanço mais saudável, com maior flexibilidade financeira e melhor preparo para novos ciclos de crescimento.",
+     "Em 2026, a Companhia realizou operações de mercado de capitais: fato relevante sobre emissão de debêntures incentivadas, em março; início e encerramento da 10ª emissão de debêntures simples, em abril; e fato relevante sobre a 11ª emissão de debêntures, em setembro, seguido de comunicados sobre alteração de cronograma, razão de permutabilidade e resultado do procedimento de bookbuilding. Em abril, foi divulgado relatório de agência de rating.",
+     "No capital de giro, o 3T26 registrou consumo, atribuído ao mix de produtos e fornecedores em relação ao trimestre anterior e à maior utilização de prazo de pagamento por um cliente do mercado de aviação."
+    ],
+    "caixa": [
+     "No 3T26, o fluxo de caixa operacional foi menor que o do 3T25. A base do 3T25 incluía eventos não recorrentes de variação de capital de giro, reflexo do resultado do trimestre anterior. O consumo de capital de giro no 3T26 decorreu do mix de produtos e fornecedores e do maior prazo de pagamento de um cliente de aviação. A Companhia destinou o caixa gerado à redução do endividamento e à expansão do embandeiramento.",
+     "Nos investimentos, a Companhia concentra recursos em negócios com vantagens competitivas e capacidade de execução, com o embandeiramento como prioridade e alocação de capital disciplinada. O Capex de Distribuição inclui iniciativas de tecnologia e Inteligência Artificial, voltadas à produtividade e à eficiência operacional. O Capex de Renováveis seguiu em trajetória descendente nos 9 meses de 2026 frente aos 9 meses de 2025, pela conclusão dos projetos de geração de energia que estavam em construção.",
+     "Quanto aos proventos, foram divulgados comunicados de remuneração aos acionistas em março (dias 23 e 24) e em junho (dias 15 e 16), além de comunicado sobre juros sobre o capital próprio em agosto. Os valores não integram esta análise."
+    ],
+    "perspectivas": [
+     "A administração considera que o ambiente setorial seguirá desafiador, com volatilidade nos mercados de petróleo e derivados em razão do contexto geopolítico. Mantém o foco em garantir o abastecimento dos clientes, em executar a estratégia com disciplina e em fortalecer sua posição competitiva.",
+     "A Companhia pretende dar continuidade à expansão e à qualificação da Rede Embandeirada, à gestão do mix no B2B e à alocação disciplinada de capital, alinhada ao planejamento estratégico de longo prazo. Mantém também a redução do endividamento como prioridade, com o objetivo de ampliar a flexibilidade financeira."
+    ]
+   },
+   "release": "Dados Financeiros - Press-release",
+   "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229",
+   "itens_hash": "d6f30aa96adcf3e9"
+  },
+  "3T26|T|2T26|T": {
+   "hash": "7fda292e2ca69cc8",
+   "gerado_em": "2026-11-04T23:04:01Z",
+   "modelo": "claude-sonnet-5-5",
+   "tipo": "trimestral",
+   "secoes": {
+    "sumario": [
+     "O 3º trimestre de 2026 manteve um ambiente setorial desafiador, com cenário internacional ainda influenciado pelos desdobramentos do conflito no Oriente Médio. Os preços internacionais de combustíveis permaneceram elevados, sobretudo em setembro. Como importador de diesel e gasolina, o Brasil ficou exposto à menor disponibilidade de produto e à maior volatilidade de preços. Nesse contexto, a Companhia concentrou esforços em garantir o abastecimento dos clientes contratados.",
+     "A estratégia da Companhia combinou a expansão e a qualificação da Rede de Postos, por meio do embandeiramento, com a continuidade da redução do endividamento. O ambiente de menor oferta e os avanços no combate às irregularidades no setor reforçaram a proposta de valor da Rede Embandeirada.",
+     "O volume vendido total foi de 9.612 mil m³, alta de 6,2% frente ao 2º trimestre de 2026 (9.053 mil m³). O EBITDA Ajustado consolidado foi de R$ 4.288 milhões, queda de 4,7% (−R$ 211 milhões) frente ao 2º trimestre de 2026 (R$ 4.499 milhões). A Rede de Postos teve aumento de EBITDA Ajustado, enquanto o B2B teve redução.",
+     "A dívida líquida, como divulgada pela Companhia, encerrou o período em R$ 14.389 milhões, 10,4% abaixo da registrada ao fim do 2º trimestre de 2026 (R$ 16.062 milhões). A alavancagem passou de 1,32x para 0,98x no mesmo intervalo."
+    ],
+    "operacional": [
+     "O volume vendido total foi de 9.612 mil m³ no 3º trimestre de 2026, alta de 6,2% frente ao 2º trimestre de 2026 (9.053 mil m³). A Rede de Postos vendeu 6.087 mil m³ (+4,9%, ante 5.800 mil m³), e o B2B vendeu 3.525 mil m³ (+8,4%, ante 3.253 mil m³).",
+     "Na Rede de Postos, o ambiente de menor oferta e o avanço no combate às irregularidades reforçaram a proposta de valor da Companhia, baseada em segurança de abastecimento, capilaridade logística e qualidade dos combustíveis. O embandeiramento de novos postos continuou ao longo do trimestre, a rede encerrou o período com saldo líquido positivo de postos frente ao 2º trimestre de 2026, e o volume médio mensal dos postos também aumentou na mesma comparação.",
+     "O EBITDA Ajustado da Rede de Postos foi de R$ 2.912 milhões, alta de 9,6% (+R$ 254 milhões) frente ao 2º trimestre de 2026 (R$ 2.658 milhões). A margem por m³ passou de R$ 458/m³ para R$ 478/m³ (+4,4%). O EBITDA Ajustado Recorrente do segmento, que desconsidera os efeitos de itens não recorrentes, foi de R$ 2,5 bilhões nos dois trimestres, de modo que a diferença entre o EBITDA Ajustado e o recorrente foi maior no 3º trimestre de 2026 do que no 2º trimestre de 2026.",
+     "No B2B, o EBITDA Ajustado foi de R$ 1.307 milhões, queda de 24,4% (−R$ 421 milhões) frente ao 2º trimestre de 2026 (R$ 1.728 milhões), mesmo com volume 8,4% maior. A margem por m³ recuou de R$ 531/m³ para R$ 371/m³ (−30,2%). O EBITDA Ajustado Recorrente do segmento passou de R$ 1,7 bilhão para R$ 1,3 bilhão, o que mostra que a redução também está presente na base recorrente. A Companhia seguiu com a gestão do mix de produtos, com ênfase em produtos aditivados, de margens superiores, apoiada em uma carteira diversificada de clientes de setores essenciais da economia.",
+     "Em Renováveis, o EBITDA Ajustado foi de R$ 184 milhões, queda de 2,1% (−R$ 4 milhões) frente ao 2º trimestre de 2026 (R$ 188 milhões). O segmento operou em cenário desafiador para a comercialização de energia, e o curtailment nas usinas de geração centralizada solar foi superior ao do 2º trimestre de 2026. A Comerc registrou ganhos de eficiência operacional, refletidos na redução das despesas. A margem EBITDA Ajustado por m³ da distribuição, sem Renováveis, foi de R$ 427/m³, queda de 10,3% frente ao 2º trimestre de 2026 (R$ 476/m³)."
+    ],
+    "resultado": [
+     "O EBITDA Ajustado consolidado foi de R$ 4.288 milhões (R$ 4,3 bilhões) no 3º trimestre de 2026, queda de 4,7% (−R$ 211 milhões) frente ao 2º trimestre de 2026 (R$ 4.499 milhões ou R$ 4,5 bilhões). O volume total cresceu 6,2% no mesmo período, de modo que a redução do EBITDA decorreu do menor resultado por m³ vendido, e não da quantidade comercializada.",
+     "Por segmento, a Rede de Postos acrescentou R$ 254 milhões ao EBITDA Ajustado frente ao 2º trimestre de 2026, enquanto B2B e Renováveis tiveram variações de −R$ 421 milhões e −R$ 4 milhões, respectivamente. O B2B, com margem de R$ 371/m³ ante R$ 531/m³, respondeu pela maior parte da variação consolidada. A Rede de Postos compensou parcialmente essa redução, com margem de R$ 478/m³ ante R$ 458/m³. Nesse segmento, o EBITDA Ajustado inclui efeitos de itens não recorrentes, e o EBITDA Ajustado Recorrente ficou em R$ 2,5 bilhões nos dois trimestres.",
+     "A Companhia atuou em um cenário de preços internacionais elevados e alta volatilidade, no qual otimizou seus fluxos de suprimento e honrou os compromissos comerciais com clientes e parceiros. Esse contexto formou o pano de fundo das margens do trimestre, com a margem por m³ da distribuição, sem Renováveis, em R$ 427/m³, ante R$ 476/m³ no 2º trimestre de 2026."
+    ],
+    "balanco": [
+     "A redução do endividamento seguiu como uma das prioridades da Companhia no 3º trimestre de 2026. A dívida líquida, como divulgada pela Companhia, foi de R$ 14.389 milhões (R$ 14,4 bilhões) ao fim do período, redução de 10,4% (−R$ 1.673 milhões) frente ao 2º trimestre de 2026 (R$ 16.062 milhões). A dívida bruta ajustada e as disponibilidades de caixa também foram menores que as do fim do 2º trimestre de 2026, com queda mais intensa da dívida bruta.",
+     "A alavancagem, medida pela dívida líquida sobre o EBITDA Ajustado dos últimos 12 meses, foi de 0,98x, ante 1,32x ao fim do 2º trimestre de 2026 (−0,34x). A redução dá sequência ao processo de desalavancagem iniciado em trimestres anteriores e reflete o objetivo da Companhia de ter um balanço mais saudável, com maior flexibilidade financeira para novos ciclos de crescimento.",
+     "No capital de giro, o trimestre teve consumo de caixa. A Companhia o associa ao mix de produtos e fornecedores frente ao trimestre anterior e à maior utilização de prazo de pagamento por um cliente do mercado de aviação.",
+     "Em setembro, a Companhia divulgou fato relevante sobre a 11ª emissão de debêntures e comunicados sobre a operação, entre eles a alteração de cronograma, a razão de permutabilidade e o resultado do procedimento de bookbuilding, publicado no fim do mês."
+    ],
+    "caixa": [
+     "A Companhia gerou fluxo de caixa operacional positivo no 3º trimestre de 2026, mesmo com o consumo de capital de giro no período. A Administração direcionou os recursos a duas frentes: a redução do endividamento, que levou a dívida líquida a R$ 14.389 milhões ao fim do período, e a ampliação do embandeiramento da Rede de Postos.",
+     "Os investimentos seguem concentrados em negócios com vantagens competitivas claras, com o embandeiramento como prioridade e alocação de capital disciplinada e aderente ao planejamento estratégico de longo prazo. O capex de Distribuição inclui iniciativas de tecnologia e inteligência artificial, voltadas à produtividade e à eficiência operacional. O capex de Renováveis segue em trajetória descendente no acumulado do ano, em razão da conclusão dos projetos de geração de energia que estavam em construção.",
+     "Em agosto, a Companhia divulgou comunicado ao mercado sobre juros sobre o capital próprio. Em setembro, deu andamento à 11ª emissão de debêntures, conforme os comunicados ao mercado do período."
+    ],
+    "perspectivas": [
+     "A Administração mantém o foco em garantir o abastecimento dos clientes em um ambiente setorial que segue desafiador, com cenário internacional influenciado pelo conflito no Oriente Médio e volatilidade nos mercados de petróleo e derivados.",
+     "A Companhia pretende dar continuidade à expansão e à qualificação da Rede Embandeirada, atraindo operadores de excelência, com alocação de capital disciplinada e prioridade ao negócio principal. A redução do endividamento permanece como prioridade, com o objetivo de criar valor de longo prazo aos acionistas."
+    ]
+   },
+   "release": "Dados Financeiros - Press-release",
+   "release_link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229",
+   "itens_hash": "23cb94e5d17fc7d0"
   }
  },
  "recusados": {},
- "atualizado_em": "2026-11-04T21:00:41Z",
+ "atualizado_em": "2026-11-04T23:04:01Z",
  "liberado": true,
  "corrigido_em": "2026-10-26T13:33:23Z"
 }

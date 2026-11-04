@@ -1,7 +1,18 @@
 {
 "fonte": "B3 — Plantão de Notícias (documentos entregues pela Vibra à CVM, com o link no sistema da CVM)",
-"atualizado_em": "2026-11-04T20:55:54Z",
+"atualizado_em": "2026-11-04T23:00:36Z",
 "noticias": [
+{
+"id": 3542689,
+"data_hora": "2026-11-04 19:53:58",
+"titulo": "VIBRA (VBBR-NM) - Dados Financeiros - Press-release - 04/11/26",
+"doc": "IPE",
+"categoria": "Dados Econômico-Financeiros",
+"tipo": "Press-release",
+"data_ref": "2026-11-04",
+"assunto": "Dados Financeiros - Press-release",
+"protocolo": "1584229"
+},
 {
 "id": 3518556,
 "data_hora": "2026-10-16 08:00:09",

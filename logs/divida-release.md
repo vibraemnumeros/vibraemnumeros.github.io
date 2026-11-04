@@ -1,6 +1,6 @@
 # Dívida líquida divulgada nos releases
 
-Executado em 2026-11-04 21:00 UTC
+Executado em 2026-11-04 23:03 UTC
 
 - 4T17 (2018-03-13): linha de dívida líquida não lida
 - 3T18 (2018-11-05): linha de dívida líquida não lida
@@ -10,4 +10,4 @@ Executado em 2026-11-04 21:00 UTC
 - 3T17: sem linha no release do trimestre; usado o comparativo do release de 2018-03-13 (3865.0)
 - 2T17: sem linha no release do trimestre; usado o comparativo do release de 2018-08-01 (9560.0)
 
-39 trimestres: 4T16 a 2T26
+40 trimestres: 4T16 a 3T26

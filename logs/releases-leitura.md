@@ -1,9 +1,9 @@
 # Releases — leitura dos números
 
-Executado em 2026-11-04 21:00 UTC
+Executado em 2026-11-04 23:03 UTC
 
 - 2018-03-13 Earnings Release 4Q17 and FY2017: ignorado (sem tabela de volume)
-Releases lidos: 42 · trimestres: 39 (4T16 a 2T26)
+Releases lidos: 43 · trimestres: 40 (4T16 a 3T26)
 
 ## Alertas de consistência (margem ≠ EBITDA ÷ volume)
 
@@ -169,7 +169,7 @@ Releases lidos: 42 · trimestres: 39 (4T16 a 2T26)
 - 2T25 DIST margem_rec_m3: 156.0 no próprio release; depois 113.0 (2025-11-05)
 - 2T25 REDE margem_rec_m3: 140.0 no próprio release; depois 151.0 (2025-11-05), 109.0 (2026-08-14)
 - 2T25 B2B margem_rec_m3: 197.0 no próprio release; depois 164.0 (2025-11-05), 157.0 (2026-08-14)
-- 3T25 REDE margem_rec_m3: 175.0 no próprio release; depois 173.0 (2026-03-11)
-- 3T25 B2B margem_rec_m3: 184.0 no próprio release; depois 156.0 (2026-03-11)
+- 3T25 REDE margem_rec_m3: 175.0 no próprio release; depois 173.0 (2026-03-11), 173.0 (2026-11-04)
+- 3T25 B2B margem_rec_m3: 184.0 no próprio release; depois 156.0 (2026-03-11), 156.0 (2026-11-04)
 - 3T17 OUT ebitda: 130.0 no próprio release; depois 123.0 (2018-11-05)
 - 3T17 OUT margem_m3: 99.0 no próprio release; depois 94.0 (2018-11-05)
