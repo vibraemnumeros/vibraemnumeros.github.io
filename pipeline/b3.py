@@ -117,29 +117,33 @@ def main():
                 log.append("- %d %s → %s" % (ano, u.format(ano=ano), info if conteudo is None else "ok (%s)" % info))
                 if conteudo:
                     break
+        # base: o que já havia daquele ano. O arquivo novo só acrescenta ou corrige pregões; download que falha ou chega
+        # truncado/corrompido nunca apaga dados já obtidos
+        n_ant = 0
+        if ant:
+            for x in ant.get("dias", []):
+                if int(x[0][:4]) == ano:
+                    por_dia[x[0]] = x; n_ant += 1
+            for x in ant.get("bova11", []):
+                if int(x[0][:4]) == ano:
+                    bova[x[0]] = x
         if not conteudo:
             erros += 1
-            # falha no download: mantém o que já havia daquele ano (nunca troca dados obtidos por nada)
-            if ant:
-                n = 0
-                for x in ant.get("dias", []):
-                    if int(x[0][:4]) == ano:
-                        por_dia[x[0]] = x; n += 1
-                for x in ant.get("bova11", []):
-                    if int(x[0][:4]) == ano:
-                        bova[x[0]] = x
-                if n:
-                    log.append("- %d: download falhou; mantidos os %d pregões já gravados" % (ano, n))
+            if n_ant:
+                log.append("- %d: download falhou; mantidos os %d pregões já gravados" % (ano, n_ant))
             continue
         try:
-            for d, t, fech, vol, neg in le_zip(conteudo):
-                if t == INDICE:
-                    bova[d] = [d, fech]
-                else:
-                    por_dia[d] = [d, t, fech, vol, neg]
+            regs = le_zip(conteudo)
         except Exception:  # noqa: BLE001
             erros += 1
-            log.append("- %d: erro ao ler o arquivo\n```\n%s\n```" % (ano, traceback.format_exc()))
+            log.append("- %d: erro ao ler o arquivo (provável download incompleto); mantidos os %d pregões já gravados\n```\n%s\n```"
+                       % (ano, n_ant, traceback.format_exc()))
+            continue
+        for d, t, fech, vol, neg in regs:
+            if t == INDICE:
+                bova[d] = [d, fech]
+            else:
+                por_dia[d] = [d, t, fech, vol, neg]
     # complemento: o arquivo anual pode chegar sem o pregão mais recente; os arquivos diários (COTAHIST_DddMMaaaa) cobrem
     # os dias úteis seguintes ao último dia lido (até 10 dias; a falta de um arquivo diário não é erro)
     if not local and por_dia:
