@@ -247,3 +247,15 @@ jobs:
           path: _site
       - id: deploy
         uses: actions/deploy-pages@v4
+
+      # publicação aprovada: o alerta de trava (se houver) é encerrado com o registro de quando voltou a publicar
+      - name: Encerrar alerta da trava de publicação
+        if: success()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          aberta=$(gh issue list --repo "${{ github.repository }}" --state open --search "Trava de publicação in:title" --json number --jq '.[0].number')
+          if [ -n "$aberta" ]; then
+            gh issue close "$aberta" --repo "${{ github.repository }}" --comment "Publicação aprovada pela trava em $(date -u +%Y-%m-%dT%H:%MZ): o painel voltou a ser atualizado. Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi

@@ -85,7 +85,7 @@ def main():
     hoje = dt.date.today()
     # incremental: reaproveita os anos fechados já gravados e baixa só o ano corrente (e o anterior em janeiro)
     anterior = os.path.join(saida, "b3_cotacoes.json")
-    anos_reuso = set()
+    anos_reuso, ant = set(), None
     if os.path.exists(anterior) and not a.completo and not local:
         try:
             ant = json.load(open(anterior, encoding="utf-8"))
@@ -119,6 +119,17 @@ def main():
                     break
         if not conteudo:
             erros += 1
+            # falha no download: mantém o que já havia daquele ano (nunca troca dados obtidos por nada)
+            if ant:
+                n = 0
+                for x in ant.get("dias", []):
+                    if int(x[0][:4]) == ano:
+                        por_dia[x[0]] = x; n += 1
+                for x in ant.get("bova11", []):
+                    if int(x[0][:4]) == ano:
+                        bova[x[0]] = x
+                if n:
+                    log.append("- %d: download falhou; mantidos os %d pregões já gravados" % (ano, n))
             continue
         try:
             for d, t, fech, vol, neg in le_zip(conteudo):
