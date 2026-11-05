@@ -40,7 +40,8 @@
   "3T25",
   "4T25",
   "1T26",
-  "2T26"
+  "2T26",
+  "3T26"
  ],
  "colunas": [
   "Capital Social Integralizado",
@@ -51543,6 +51544,1446 @@
   ],
   [
    "2T26",
+   "5.07",
+   "Reservas de Lucro",
+   10233.0
+  ],
+  [
+   "3T26",
+   "5.01",
+   "Capital Social Integralizado",
+   12051.0
+  ],
+  [
+   "3T26",
+   "5.01",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.01",
+   "Outros Resultados Abrangentes",
+   -1694.0
+  ],
+  [
+   "3T26",
+   "5.01",
+   "Participação dos Não Controladores",
+   134.0
+  ],
+  [
+   "3T26",
+   "5.01",
+   "Patrimônio Líquido",
+   20607.0
+  ],
+  [
+   "3T26",
+   "5.01",
+   "Patrimônio Líquido Consolidado",
+   20741.0
+  ],
+  [
+   "3T26",
+   "5.01",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   17.0
+  ],
+  [
+   "3T26",
+   "5.01",
+   "Reservas de Lucro",
+   10233.0
+  ],
+  [
+   "3T26",
+   "5.02",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.02",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.02",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.02",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.02",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.02",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.02",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.02",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.03",
+   "Capital Social Integralizado",
+   12051.0
+  ],
+  [
+   "3T26",
+   "5.03",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.03",
+   "Outros Resultados Abrangentes",
+   -1694.0
+  ],
+  [
+   "3T26",
+   "5.03",
+   "Participação dos Não Controladores",
+   134.0
+  ],
+  [
+   "3T26",
+   "5.03",
+   "Patrimônio Líquido",
+   20607.0
+  ],
+  [
+   "3T26",
+   "5.03",
+   "Patrimônio Líquido Consolidado",
+   20741.0
+  ],
+  [
+   "3T26",
+   "5.03",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   17.0
+  ],
+  [
+   "3T26",
+   "5.03",
+   "Reservas de Lucro",
+   10233.0
+  ],
+  [
+   "3T26",
+   "5.04",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04",
+   "Lucros ou Prejuízos Acumulados",
+   -1451.0
+  ],
+  [
+   "3T26",
+   "5.04",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04",
+   "Participação dos Não Controladores",
+   -55.0
+  ],
+  [
+   "3T26",
+   "5.04",
+   "Patrimônio Líquido",
+   -1472.0
+  ],
+  [
+   "3T26",
+   "5.04",
+   "Patrimônio Líquido Consolidado",
+   -1527.0
+  ],
+  [
+   "3T26",
+   "5.04",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   -21.0
+  ],
+  [
+   "3T26",
+   "5.04",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.01",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.01",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.01",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.01",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.01",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.01",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.01",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.01",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.02",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.02",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.02",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.02",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.02",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.02",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.02",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.02",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.03",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.03",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.03",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.03",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.03",
+   "Patrimônio Líquido",
+   -100.0
+  ],
+  [
+   "3T26",
+   "5.04.03",
+   "Patrimônio Líquido Consolidado",
+   -100.0
+  ],
+  [
+   "3T26",
+   "5.04.03",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   -100.0
+  ],
+  [
+   "3T26",
+   "5.04.03",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.04",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.04",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.04",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.04",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.04",
+   "Patrimônio Líquido",
+   86.0
+  ],
+  [
+   "3T26",
+   "5.04.04",
+   "Patrimônio Líquido Consolidado",
+   86.0
+  ],
+  [
+   "3T26",
+   "5.04.04",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   86.0
+  ],
+  [
+   "3T26",
+   "5.04.04",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.05",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.05",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.05",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.05",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.05",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.05",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.05",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.05",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.06",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.06",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.06",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.06",
+   "Participação dos Não Controladores",
+   -3.0
+  ],
+  [
+   "3T26",
+   "5.04.06",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.06",
+   "Patrimônio Líquido Consolidado",
+   -3.0
+  ],
+  [
+   "3T26",
+   "5.04.06",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.06",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.07",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.07",
+   "Lucros ou Prejuízos Acumulados",
+   -1451.0
+  ],
+  [
+   "3T26",
+   "5.04.07",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.07",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.07",
+   "Patrimônio Líquido",
+   -1451.0
+  ],
+  [
+   "3T26",
+   "5.04.07",
+   "Patrimônio Líquido Consolidado",
+   -1451.0
+  ],
+  [
+   "3T26",
+   "5.04.07",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.07",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.08",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.08",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.08",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.08",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.08",
+   "Patrimônio Líquido",
+   -7.0
+  ],
+  [
+   "3T26",
+   "5.04.08",
+   "Patrimônio Líquido Consolidado",
+   -7.0
+  ],
+  [
+   "3T26",
+   "5.04.08",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   -7.0
+  ],
+  [
+   "3T26",
+   "5.04.08",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.09",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.09",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.09",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.09",
+   "Participação dos Não Controladores",
+   -52.0
+  ],
+  [
+   "3T26",
+   "5.04.09",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.09",
+   "Patrimônio Líquido Consolidado",
+   -52.0
+  ],
+  [
+   "3T26",
+   "5.04.09",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.04.09",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05",
+   "Lucros ou Prejuízos Acumulados",
+   6430.0
+  ],
+  [
+   "3T26",
+   "5.05",
+   "Outros Resultados Abrangentes",
+   -186.0
+  ],
+  [
+   "3T26",
+   "5.05",
+   "Participação dos Não Controladores",
+   -5.0
+  ],
+  [
+   "3T26",
+   "5.05",
+   "Patrimônio Líquido",
+   6244.0
+  ],
+  [
+   "3T26",
+   "5.05",
+   "Patrimônio Líquido Consolidado",
+   6239.0
+  ],
+  [
+   "3T26",
+   "5.05",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.01",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.01",
+   "Lucros ou Prejuízos Acumulados",
+   6430.0
+  ],
+  [
+   "3T26",
+   "5.05.01",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.01",
+   "Participação dos Não Controladores",
+   -5.0
+  ],
+  [
+   "3T26",
+   "5.05.01",
+   "Patrimônio Líquido",
+   6430.0
+  ],
+  [
+   "3T26",
+   "5.05.01",
+   "Patrimônio Líquido Consolidado",
+   6425.0
+  ],
+  [
+   "3T26",
+   "5.05.01",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.01",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02",
+   "Outros Resultados Abrangentes",
+   -186.0
+  ],
+  [
+   "3T26",
+   "5.05.02",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02",
+   "Patrimônio Líquido",
+   -186.0
+  ],
+  [
+   "3T26",
+   "5.05.02",
+   "Patrimônio Líquido Consolidado",
+   -186.0
+  ],
+  [
+   "3T26",
+   "5.05.02",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.01",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.01",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.01",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.01",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.01",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.01",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.01",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.01",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.02",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.02",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.02",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.02",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.02",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.02",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.02",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.02",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.03",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.03",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.03",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.03",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.03",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.03",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.03",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.03",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.04",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.04",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.04",
+   "Outros Resultados Abrangentes",
+   -22.0
+  ],
+  [
+   "3T26",
+   "5.05.02.04",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.04",
+   "Patrimônio Líquido",
+   -22.0
+  ],
+  [
+   "3T26",
+   "5.05.02.04",
+   "Patrimônio Líquido Consolidado",
+   -22.0
+  ],
+  [
+   "3T26",
+   "5.05.02.04",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.04",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.05",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.05",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.05",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.05",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.05",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.05",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.05",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.05",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.06",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.06",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.06",
+   "Outros Resultados Abrangentes",
+   -86.0
+  ],
+  [
+   "3T26",
+   "5.05.02.06",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.06",
+   "Patrimônio Líquido",
+   -86.0
+  ],
+  [
+   "3T26",
+   "5.05.02.06",
+   "Patrimônio Líquido Consolidado",
+   -86.0
+  ],
+  [
+   "3T26",
+   "5.05.02.06",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.06",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.07",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.07",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.07",
+   "Outros Resultados Abrangentes",
+   -78.0
+  ],
+  [
+   "3T26",
+   "5.05.02.07",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.07",
+   "Patrimônio Líquido",
+   -78.0
+  ],
+  [
+   "3T26",
+   "5.05.02.07",
+   "Patrimônio Líquido Consolidado",
+   -78.0
+  ],
+  [
+   "3T26",
+   "5.05.02.07",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.02.07",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03.01",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03.01",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03.01",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03.01",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03.01",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03.01",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03.01",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.05.03.01",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.01",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.01",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.01",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.01",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.01",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.01",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.01",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.01",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.02",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.02",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.02",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.02",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.02",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.02",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.02",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.02",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.03",
+   "Capital Social Integralizado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.03",
+   "Lucros ou Prejuízos Acumulados",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.03",
+   "Outros Resultados Abrangentes",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.03",
+   "Participação dos Não Controladores",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.03",
+   "Patrimônio Líquido",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.03",
+   "Patrimônio Líquido Consolidado",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.03",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.06.03",
+   "Reservas de Lucro",
+   0.0
+  ],
+  [
+   "3T26",
+   "5.07",
+   "Capital Social Integralizado",
+   12051.0
+  ],
+  [
+   "3T26",
+   "5.07",
+   "Lucros ou Prejuízos Acumulados",
+   4979.0
+  ],
+  [
+   "3T26",
+   "5.07",
+   "Outros Resultados Abrangentes",
+   -1880.0
+  ],
+  [
+   "3T26",
+   "5.07",
+   "Participação dos Não Controladores",
+   74.0
+  ],
+  [
+   "3T26",
+   "5.07",
+   "Patrimônio Líquido",
+   25379.0
+  ],
+  [
+   "3T26",
+   "5.07",
+   "Patrimônio Líquido Consolidado",
+   25453.0
+  ],
+  [
+   "3T26",
+   "5.07",
+   "Reservas de Capital, Opções Outorgadas e Ações em Tesouraria",
+   -4.0
+  ],
+  [
+   "3T26",
    "5.07",
    "Reservas de Lucro",
    10233.0

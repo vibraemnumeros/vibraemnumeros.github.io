@@ -32,6 +32,7 @@
   "df:3T23",
   "df:3T24",
   "df:3T25",
+  "df:3T26",
   "df:4T16",
   "df:4T17",
   "df:4T18",
@@ -290,6 +291,16 @@
    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229",
    "chave": "release:3T26",
    "registrado_em": "2026-11-04T23:07:12Z",
+   "historico": false
+  },
+  {
+   "data": "2026-11-04",
+   "tipo": "Demonstrações financeiras",
+   "titulo": "ITR do 3º trimestre de 2026",
+   "detalhe": "EBITDA Ajustado de R$ 4.288 mi (+137,4% sobre o mesmo trimestre do ano anterior); receita líquida de R$ 56.647 mi (+17,2% sobre o mesmo trimestre do ano anterior); lucro líquido de R$ 2.460 mi (+504,4% sobre o mesmo trimestre do ano anterior).",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229",
+   "chave": "df:3T26",
+   "registrado_em": "2026-11-05T11:23:15Z",
    "historico": false
   },
   {
@@ -3083,5 +3094,5 @@
    "historico": true
   }
  ],
- "atualizado_em": "2026-11-05T06:47:39Z"
+ "atualizado_em": "2026-11-05T11:23:15Z"
 }

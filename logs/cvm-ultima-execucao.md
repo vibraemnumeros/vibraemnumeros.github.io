@@ -1,12 +1,13 @@
 # Atualização dos dados da CVM
 
-Execução (UTC): 2026-11-05 06:44:51
+Execução (UTC): 2026-11-05 11:15:53
 
 ## Coleta
 - DFP 2025: linhas da Vibra por demonstração: {'DRE': 76, 'BPA': 146, 'BPP': 240, 'DFC': 164, 'DVA': 92, 'DRA': 22, 'DMPL': 496, 'ações': 1}
 - DFP 2026: linhas da Vibra por demonstração: {'DRE': 0, 'BPA': 0, 'BPP': 0, 'DFC': 0, 'DVA': 0, 'DRA': 0, 'DMPL': 0, 'ações': 0}
 - ITR 2025: linhas da Vibra por demonstração: {'DRE': 380, 'BPA': 438, 'BPP': 722, 'DFC': 440, 'DVA': 266, 'DRA': 90, 'DMPL': 1400, 'ações': 3}
 - ITR 2026: linhas da Vibra por demonstração: {'DRE': 228, 'BPA': 292, 'BPP': 480, 'DFC': 300, 'DVA': 174, 'DRA': 66, 'DMPL': 960, 'ações': 2}
+- Lidos direto do RAD da CVM (a base aberta ainda não os tem): ITR 2026-09-30
 - DRE 3.06.01 em 2016: conta mudou de conteúdo entre formulários do ano; trimestres sem valor
 - DRE 3.06.01.01 em 2016: conta mudou de conteúdo entre formulários do ano; trimestres sem valor
 - DRE 3.06.02 em 2016: conta mudou de conteúdo entre formulários do ano; trimestres sem valor
@@ -30,12 +31,12 @@ Execução (UTC): 2026-11-05 06:44:51
 - Exercícios só anuais (comparativo do DFP seguinte): 2015
 
 ## Cobertura
-- dre: 42 trimestres (1T16 a 2T26)
-- balanco: 40 trimestres (4T15 a 2T26)
-- fluxo_caixa: 42 trimestres (1T16 a 2T26)
-- dva: 42 trimestres (1T16 a 2T26)
-- dra: 42 trimestres (1T16 a 2T26)
-- acoes: 35 trimestres (4T17 a 2T26)
+- dre: 43 trimestres (1T16 a 3T26)
+- balanco: 41 trimestres (4T15 a 3T26)
+- fluxo_caixa: 43 trimestres (1T16 a 3T26)
+- dva: 43 trimestres (1T16 a 3T26)
+- dra: 43 trimestres (1T16 a 3T26)
+- acoes: 36 trimestres (4T17 a 3T26)
 
 ## Conferências
-- Testes: 778 | divergentes: 0 | sem dados: 0 | validado: True
+- Testes: 796 | divergentes: 0 | sem dados: 0 | validado: True

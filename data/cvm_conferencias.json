@@ -1890,6 +1890,51 @@
   "status": "ok"
  },
  {
+  "demo": "DRE",
+  "teste": "3.01 + 3.02 = 3.03 (resultado bruto)",
+  "periodo": "3T26",
+  "esperado": 4821.0,
+  "reportado": 4821.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.03 + 3.04 = 3.05 (resultado antes do financeiro)",
+  "periodo": "3T26",
+  "esperado": 3606.0,
+  "reportado": 3606.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.05 + 3.06 = 3.07 (resultado antes dos tributos)",
+  "periodo": "3T26",
+  "esperado": 3247.0,
+  "reportado": 3247.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.07 + 3.08 = 3.09 (resultado das operações continuadas)",
+  "periodo": "3T26",
+  "esperado": 2460.0,
+  "reportado": 2460.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRE",
+  "teste": "3.09 + 3.10 = 3.11 (lucro do período)",
+  "periodo": "3T26",
+  "esperado": 2460.0,
+  "reportado": 2460.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
   "demo": "Balanço",
   "teste": "Ativo total (1) = passivo total (2)",
   "periodo": "4T15",
@@ -2966,6 +3011,33 @@
   "periodo": "2T26",
   "esperado": 65837.0,
   "reportado": 65837.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Balanço",
+  "teste": "Ativo total (1) = passivo total (2)",
+  "periodo": "3T26",
+  "esperado": 64235.0,
+  "reportado": 64235.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Balanço",
+  "teste": "1.01 + 1.02 = 1",
+  "periodo": "3T26",
+  "esperado": 64235.0,
+  "reportado": 64235.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Balanço",
+  "teste": "2.01 + 2.02 + 2.03 = 2",
+  "periodo": "3T26",
+  "esperado": 64235.0,
+  "reportado": 64235.0,
   "diferenca": 0.0,
   "status": "ok"
  },
@@ -4078,6 +4150,33 @@
  },
  {
   "demo": "Fluxo de caixa",
+  "teste": "6.01 + 6.02 + 6.03 + 6.04 = 6.05",
+  "periodo": "3T26",
+  "esperado": -553.0,
+  "reportado": -553.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo inicial + variação = saldo final",
+  "periodo": "3T26",
+  "esperado": 5231.0,
+  "reportado": 5231.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Caixa final do fluxo = caixa do balanço (1.01.01)",
+  "periodo": "3T26",
+  "esperado": 5231.0,
+  "reportado": 5231.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
   "teste": "Saldo final de 1T16 = saldo inicial de 2T16",
   "periodo": "2T16",
   "esperado": 816.0,
@@ -4442,6 +4541,15 @@
   "periodo": "2T26",
   "esperado": 5107.0,
   "reportado": 5107.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Fluxo de caixa",
+  "teste": "Saldo final de 2T26 = saldo inicial de 3T26",
+  "periodo": "3T26",
+  "esperado": 5784.0,
+  "reportado": 5784.0,
   "diferenca": 0.0,
   "status": "ok"
  },
@@ -5958,6 +6066,42 @@
   "status": "ok"
  },
  {
+  "demo": "DVA",
+  "teste": "7.01 + 7.02 = 7.03 (valor adicionado bruto)",
+  "periodo": "3T26",
+  "esperado": 4053.0,
+  "reportado": 4053.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.03 + 7.04 = 7.05 (valor adicionado líquido)",
+  "periodo": "3T26",
+  "esperado": 3677.0,
+  "reportado": 3677.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.05 + 7.06 = 7.07 (valor adicionado total a distribuir)",
+  "periodo": "3T26",
+  "esperado": 4363.0,
+  "reportado": 4363.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DVA",
+  "teste": "7.08 (distribuição) = 7.07 (valor adicionado total)",
+  "periodo": "3T26",
+  "esperado": 4363.0,
+  "reportado": 4363.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
   "demo": "DRA",
   "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
   "periodo": "1T16",
@@ -6710,6 +6854,24 @@
   "periodo": "2T26",
   "esperado": 2352.0,
   "reportado": 2352.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "DRA",
+  "teste": "4.01 + 4.02 = 4.03 (resultado abrangente)",
+  "periodo": "3T26",
+  "esperado": 2339.0,
+  "reportado": 2339.0,
+  "diferenca": 0.0,
+  "status": "ok"
+ },
+ {
+  "demo": "Cruzado",
+  "teste": "Lucro da DRA (4.01) = lucro da DRE (3.11)",
+  "periodo": "3T26",
+  "esperado": 2460.0,
+  "reportado": 2460.0,
   "diferenca": 0.0,
   "status": "ok"
  },

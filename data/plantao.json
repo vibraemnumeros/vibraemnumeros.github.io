@@ -1,7 +1,16 @@
 {
 "fonte": "B3 — Plantão de Notícias (documentos entregues pela Vibra à CVM, com o link no sistema da CVM)",
-"atualizado_em": "2026-11-05T06:44:50Z",
+"atualizado_em": "2026-11-05T11:15:25Z",
 "noticias": [
+{
+"id": 3542791,
+"data_hora": "2026-11-05 08:00:27",
+"titulo": "VIBRA (VBBR-NM) - Demonstracoes Financeiras - ITR de 30/09/26",
+"doc": "ITR",
+"dt_refer": "2026-09-30",
+"assunto": "Demonstracoes Financeiras - ITR de 30/09/26",
+"nsd": "162001"
+},
 {
 "id": 3542689,
 "data_hora": "2026-11-04 19:53:58",
