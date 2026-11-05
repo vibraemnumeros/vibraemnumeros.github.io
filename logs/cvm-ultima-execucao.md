@@ -1,6 +1,6 @@
 # Atualização dos dados da CVM
 
-Execução (UTC): 2026-11-05 18:05:05
+Execução (UTC): 2026-11-05 23:45:29
 
 ## Coleta
 - DFP 2025: linhas da Vibra por demonstração: {'DRE': 76, 'BPA': 146, 'BPP': 240, 'DFC': 164, 'DVA': 92, 'DRA': 22, 'DMPL': 496, 'ações': 1}
