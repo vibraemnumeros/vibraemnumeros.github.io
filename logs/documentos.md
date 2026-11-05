@@ -1,6 +1,6 @@
 # Documentos — última execução
 
-Executado em 2026-11-05 12:58 UTC
+Executado em 2026-11-05 18:06 UTC
 
 - vibra_df: PDF do pacote do RAD (antes da base IPE semanal): ITR 3T26
 - vibra_df: 31 no índice, 0 novos, 0 falhas
