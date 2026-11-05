@@ -1,7 +1,18 @@
 {
 "fonte": "B3 — Plantão de Notícias (documentos entregues pela Vibra à CVM, com o link no sistema da CVM)",
-"atualizado_em": "2026-11-05T11:15:25Z",
+"atualizado_em": "2026-11-05T12:00:35Z",
 "noticias": [
+{
+"id": 3542874,
+"data_hora": "2026-11-05 08:46:22",
+"titulo": "VIBRA (VBBR-NM) - Apresentacao a analistas/agentes mercado - 05/11/26",
+"doc": "IPE",
+"categoria": "Comunicado ao Mercado",
+"tipo": "Apresentações a analistas/agentes do mercado",
+"data_ref": "2026-11-05",
+"assunto": "Apresentacao a analistas/agentes mercado",
+"protocolo": "1584376"
+},
 {
 "id": 3542791,
 "data_hora": "2026-11-05 08:00:27",
