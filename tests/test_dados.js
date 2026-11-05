@@ -72,9 +72,11 @@ chk('evebitda', '2T26', 'T', evv / ps.reduce((s, p) => s + ajv(p), 0));
 chk('fcfy', '2T26', 'T', 100 * (udm(dfc, '6.01') + udm(dfc, '6.02.01')) / mc);
 chk('dy', '2T26', 'T', 100 * -udm(dfc, '6.03.05') / mc);
 // cotação atual: último fechamento da B3 com as demonstrações do último trimestre
-const ult = b3.dias[b3.dias.length - 1];
-perto(m.indAtual('mcap'), ult[2] * sh('2T26') / 1e6, 'mcap atual'); n++;
-perto(m.indAtual('pl'), ult[2] * sh('2T26') / 1e6 / udm(dre, '3.11.01'), 'P/L atual'); n++;
+// (o último trimestre é o mais recente da DRE, não um trimestre fixo: o teste continua valendo quando um ITR novo entra)
+const ult = b3.dias[b3.dias.length - 1], pu = dre.periodos[dre.periodos.length - 1];
+const udmAte = (t, cd, p) => [3, 2, 1, 0].reduce((s_, k) => s_ + g(t, cd, D.desloca(p, k)), 0);
+perto(m.indAtual('mcap'), ult[2] * sh(pu) / 1e6, 'mcap atual'); n++;
+perto(m.indAtual('pl'), ult[2] * sh(pu) / 1e6 / udmAte(dre, '3.11.01', pu), 'P/L atual'); n++;
 // sem cotação antes do IPO; de 4T17 a 4T19, ações pelo FRE (1.165.000.000, sem tesouraria)
 assert.strictEqual(m.ind('preco', '1T17', 'T'), null); n++;
 const c4t19 = m.cotacaoAte('2019-12-31').p;
