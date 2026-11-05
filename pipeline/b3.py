@@ -103,6 +103,19 @@ def main():
                 log.append("- anos reaproveitados do arquivo anterior: %s" % ", ".join(map(str, sorted(anos_reuso))))
         except Exception:  # noqa: BLE001
             por_dia, anos_reuso = {}, set()
+    # rapidez: o arquivo anual do ano corrente (~100 MB, ~2 min) só é baixado de novo uma vez por semana (sábado ou
+    # domingo) ou quando faltam mais de 10 dias; no resto do tempo os arquivos diários (poucos KB) completam os pregões
+    if ant and not local and not a.completo and hoje.weekday() < 5:
+        do_ano = [x for x in ant.get("dias", []) if int(x[0][:4]) == hoje.year]
+        if do_ano and (hoje - dt.date.fromisoformat(do_ano[-1][0])).days <= 10:
+            for x in do_ano:
+                por_dia[x[0]] = x
+            for x in ant.get("bova11", []):
+                if int(x[0][:4]) == hoje.year:
+                    bova[x[0]] = x
+            anos_reuso.add(hoje.year)
+            log.append("- %d: arquivo anual não baixado nesta execução (rápida); %d pregões já gravados + arquivos diários"
+                       % (hoje.year, len(do_ano)))
     for ano in range(ANO_INICIAL, hoje.year + 1):
         if ano in anos_reuso:
             continue

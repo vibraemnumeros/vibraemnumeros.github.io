@@ -7,12 +7,18 @@ Dispara quando:
 2. a B3 já publicou o arquivo de cotações do último pregão e data/b3_cotacoes.json ainda não o tem.
 
 Escreve disparar=1|0 e motivo=<texto> em GITHUB_OUTPUT (ou na tela).
+
+Com --minutos N, fica de plantão por até N minutos: confere o Plantão da B3 a cada --intervalo segundos (padrão 60) e a
+cotação do dia a cada 5 minutos, e sai assim que houver novidade. Assim um documento entregue logo depois de uma
+conferência não espera a próxima execução agendada.
 """
+import argparse
 import datetime as dt
 import json
 import os
 import re
 import sys
+import time
 import urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -63,16 +69,33 @@ def pregao_novo():
     return None
 
 
-def main():
+def conferir(com_pregao=True):
     motivos = []
     novos, erro = novidades_plantao()
     if novos:
         motivos.append("%d documento(s) novo(s) no Plantão da B3: %s" % (len(novos), "; ".join(novos[:3])))
     elif erro:
         print(erro)
-    d = pregao_novo()
+    d = pregao_novo() if com_pregao else None
     if d:
         motivos.append("cotação do pregão de %s publicada pela B3" % d)
+    return motivos
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--minutos", type=float, default=0)
+    ap.add_argument("--intervalo", type=int, default=60)
+    a = ap.parse_args()
+    fim = time.monotonic() + a.minutos * 60
+    rodada = 0
+    while True:
+        motivos = conferir(com_pregao=(rodada % 5 == 0))
+        rodada += 1
+        if motivos or time.monotonic() + a.intervalo > fim:
+            break
+        time.sleep(a.intervalo)
+    print("Conferências feitas: %d" % rodada)
     saida = "disparar=%d\nmotivo=%s\n" % (1 if motivos else 0, " | ".join(motivos)[:900])
     if os.environ.get("GITHUB_OUTPUT"):
         open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8").write(saida)

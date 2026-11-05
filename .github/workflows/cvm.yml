@@ -191,9 +191,13 @@ jobs:
         run: |
           if [ -s logs/novidades.md ]; then
             printf '\n@lcsbispo1973\n' >> logs/novidades.md
-            gh issue create --repo "${{ github.repository }}" \
+            novo=$(gh issue create --repo "${{ github.repository }}" \
               --title "Novidades da Vibra na CVM — $(date -u +%d/%m/%Y)" \
-              --body-file logs/novidades.md
+              --body-file logs/novidades.md)
+            # avisos são só informativos: fica aberto apenas o mais recente
+            for i in $(gh issue list --repo "${{ github.repository }}" --state open --search "Novidades da Vibra na CVM in:title" --json number,url --jq ".[]|select(.url != \"$novo\")|.number"); do
+              gh issue close "$i" --repo "${{ github.repository }}" --comment "Substituído pelo aviso mais recente: $novo" || true
+            done
           else
             echo "Nada novo."
           fi

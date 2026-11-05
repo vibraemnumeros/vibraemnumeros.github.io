@@ -180,12 +180,49 @@ def diag_fre_xml(log):
         log.append("- <%s>: %d caracteres · %r" % (c, n, ex if re.search(r"condi|liquidez|resultado|endivid|financ|10\.", ex, re.I) else ex[:25]))
 
 
+URL_RAD = "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento={nsd}"
+
+
+def df_do_rad(oficiais):
+    """ITR/DFP já entregue à CVM e lido pelo RAD (pipeline/rad.py) cujo PDF ainda não está na base IPE (semanal).
+
+    O pacote do RAD traz o PDF completo do documento, com as notas explicativas; entra como provisório e sai quando o
+    PDF oficial da mesma data de referência chegar pelo IPE.
+    """
+    pasta = os.path.join(RAIZ, "data", "cvm_raw")
+    pl = os.path.join(RAIZ, "data", "plantao.json")
+    noticias = json.load(open(pl, encoding="utf-8")).get("noticias", []) if os.path.exists(pl) else []
+    entrega = {str(n.get("nsd")): n["data_hora"][:10] for n in noticias if n.get("nsd")}
+    refs = {d["data_referencia"] for d in oficiais}
+    out = []
+    for f in sorted(os.listdir(pasta)) if os.path.isdir(pasta) else []:
+        m = re.match(r"RAD_(ITR|DFP)_(\d{4}-\d{2}-\d{2})\.json$", f)
+        if not m:
+            continue
+        meta = json.load(open(os.path.join(pasta, f), encoding="utf-8"))
+        tipo, ref, nsd = m.group(1), m.group(2), str(meta.get("nsd") or "")
+        # já coberto pelo IPE: mesma data de referência, ou DF oficial entregue no mesmo dia ou depois (há DFs no IPE com a
+        # data de entrega no lugar da data de referência)
+        if not nsd or nsd not in entrega or ref in refs or any(ref < d["data_entrega"] and d["data_entrega"] >= entrega[nsd] for d in oficiais):
+            continue
+        tri = "%dT%s" % ((int(ref[5:7]) - 1) // 3 + 1, ref[2:4])
+        out.append({"protocolo": "RAD-NSD-%s" % nsd, "data_entrega": entrega[nsd], "data_referencia": ref,
+                    "categoria": "Dados Econômico-Financeiros",
+                    "tipo": "Demonstrações Financeiras Intermediárias" if tipo == "ITR" else "Demonstrações Financeiras Anuais Completas",
+                    "assunto": ("ITR %s" % tri) if tipo == "ITR" else ("DFP %s" % ref[:4]), "link": URL_RAD.format(nsd=nsd), "provisorio": True})
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--completo", action="store_true"); a = ap.parse_args()
     os.makedirs(os.path.join(RAIZ, "logs"), exist_ok=True)
     log = ["# Documentos — última execução", "", "Executado em %s UTC" % dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M"), ""]
     vibra = json.load(open(os.path.join(RAIZ, "data", "ipe.json"), encoding="utf-8"))["documentos"]
-    coletar("vibra_df", [d for d in vibra if d["tipo"].startswith("Demonstrações Financeiras") and "Especiais" not in d["tipo"]], log, a.completo)
+    dfs = [d for d in vibra if d["tipo"].startswith("Demonstrações Financeiras") and "Especiais" not in d["tipo"]]
+    rad = df_do_rad(dfs)
+    if rad:
+        log.append("- vibra_df: PDF do pacote do RAD (antes da base IPE semanal): %s" % ", ".join(d["assunto"] for d in rad))
+    coletar("vibra_df", dfs + rad, log, a.completo)
     coletar("vibra_proventos", [d for d in vibra if d["categoria"] in ("Aviso aos Acionistas", "Comunicado ao Mercado", "Fato Relevante", "Reunião da Administração") and RX_PROV.search(d["assunto"] + " " + d["tipo"])], log, a.completo)
     coletar("vibra_rating", [d for d in vibra if "rating" in (d["tipo"] + " " + d["assunto"]).lower()], log, a.completo)
     ult = ipe_ultrapar(log)

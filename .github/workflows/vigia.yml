@@ -1,6 +1,6 @@
 name: Vigia (documentos novos da Vibra e cotação do dia)
 
-# A cada 15 minutos confere, sem gravar nada, se a Vibra entregou documento novo à CVM (Plantão de Notícias da B3) ou se a
+# Fica de plantão: cada execução confere a cada minuto, por 14 minutos, sem gravar nada, se a Vibra entregou documento novo à CVM (Plantão de Notícias da B3) ou se a
 # B3 publicou a cotação do último pregão. Se sim, dispara a atualização completa do painel (Atualizar dados da CVM).
 on:
   schedule:
@@ -25,7 +25,7 @@ concurrency:
 jobs:
   vigia:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
         with:
@@ -40,7 +40,7 @@ jobs:
           python-version: '3.12'
       - name: Conferir novidades
         id: v
-        run: python pipeline/vigia.py
+        run: python pipeline/vigia.py --minutos 14 --intervalo 60
       - name: Disparar a atualização do painel
         if: steps.v.outputs.disparar == '1' || inputs.forcar
         env:
