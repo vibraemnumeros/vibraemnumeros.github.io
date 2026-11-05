@@ -51,6 +51,7 @@ jobs:
           python -I tests/test_ipe_fixture.py
           python -I tests/test_rad.py
           python -I tests/test_plantao.py
+          python -I tests/test_guarda.py
           node tests/test_dados.js
 
       - name: Documentos em tempo real (Plantão de Notícias da B3 e ITR/DFP direto do RAD da CVM)
@@ -120,6 +121,12 @@ jobs:
           if [ -n "$aberta" ]; then export MDA_IA_PING=1; fi   # com aviso aberto, testa se o crédito voltou
           python pipeline/mda_ia.py
 
+      # Nenhuma atualização apaga dados já publicados: arquivo que volta com menos itens (fonte fora do ar, download pela
+      # metade) é devolvido à versão anterior antes de gravar; o resto da atualização segue e o alerta abaixo avisa.
+      - name: Guarda contra perda de dados
+        if: always()
+        run: python pipeline/guarda.py
+
       - name: Registro de mudanças
         if: always()
         continue-on-error: true
@@ -140,6 +147,21 @@ jobs:
               git pull --rebase --autostash -X theirs -q origin main && git push && break
               sleep 10
             done
+          fi
+
+      - name: Alerta da guarda de dados
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          aberta=$(gh issue list --repo "${{ github.repository }}" --state open --search "Guarda de dados in:title" --json number --jq '.[0].number')
+          if [ -s guarda-alerta.md ]; then
+            { cat guarda-alerta.md; echo; echo "Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; } > corpo.md
+            if [ -n "$aberta" ]; then gh issue comment "$aberta" --repo "${{ github.repository }}" --body-file corpo.md
+            else gh issue create --repo "${{ github.repository }}" --title "Guarda de dados: arquivo mantido na versão anterior" --body-file corpo.md; fi
+          elif [ -n "$aberta" ]; then
+            gh issue close "$aberta" --repo "${{ github.repository }}" --comment "Atualização completa, sem perda de dados. Encerrado automaticamente."
           fi
 
       - name: Alerta da redação do MD&A (crédito ou chave da API)

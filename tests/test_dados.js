@@ -117,19 +117,49 @@ chk('receita', '4T15', 'AN', 97280); chk('lucro', '4T15', 'AN', g(dre, '3.11', '
 assert.strictEqual(m.ind('receita', '4T15', 'T'), null); assert.strictEqual(m.disponivel(2015, '4T'), false); assert.strictEqual(m.disponivel(2015, 'AN'), true); n += 3;
 assert.strictEqual(m.ind('dliq', '4T15', 'T'), null); n++;   // sem release antes de 2016: não mistura com a dívida pelo balanço
 perto(m.ind('receita', '4T16', 'AN') / m.ind('receita', '4T15', 'AN') - 1, 86637 / 97280 - 1, 'variação da receita 2016 × 2015'); n++;
-// gráficos-síntese (Demonstrações) e pontes (Comparar): fecham com os totais da CVM em todos os períodos e bases
-{
-  const m2 = D.criar({ dre, bp, dfc, dva, dra, acoes, b3, aj, dlrel, dmpl: ld('cvm_dmpl') }), E = m2.estrutura, falhas = [];
+// Estruturas (gráficos-síntese e pontes) só são exigidas onde os dados que as compõem existem: o release de um trimestre
+// pode chegar antes do ITR, e um período "ainda não calculável" não é erro; um período calculável que não fecha é.
+function conferirEstruturas(m2, dmpl, dlrel) {
+  const E = m2.estrutura, falhas = [];
   for (const p of m2.periodos('bp', 'T')) { const b = E.balanco(p); if (!b || !b.fecha) falhas.push('balanço ' + p); }
   for (const base of ['T', 'S', '9M', 'AN', 'LTM']) for (const p of m2.periodos('dre', base)) {
     for (const [k, f] of [['resultado', E.resultado], ['caixa', E.caixa], ['dva', E.dva], ['dra', E.dra]]) { const r = f(p, base); if (!r || !r.fecha) falhas.push(k + ' ' + p + ' ' + base); }
   }
-  for (const p of ld('cvm_dmpl').periodos) { const r = E.pl(p); if (!r || !r.fecha) falhas.push('PL ' + p); }
-  // dívida: o release pode chegar antes do ITR; sem o fluxo de caixa do período a ponte ainda não existe (não é falha)
+  for (const p of dmpl.periodos) { const r = E.pl(p); if (!r || !r.fecha) falhas.push('PL ' + p); }
   const dp = dlrel.periodos, comDfc = new Set(m2.periodos('dfc', 'T'));
   for (let i = 1; i < dp.length; i++) { const r = E.ponteDivida(dp[i - 1], dp[i]); if (!r && !comDfc.has(dp[i])) continue; if (!r || !r.fecha) falhas.push('dívida ' + dp[i]); }
   const pb = m2.periodos('bp', 'T'); for (let i = 4; i < pb.length; i++) for (const lado of ['ativo', 'passivo']) { const r = E.ponteBalanco(pb[i - 4], pb[i], lado); if (!r || !r.fecha) falhas.push('ponte ' + lado + ' ' + pb[i]); }
+  return falhas;
+}
+// Todo indicador, em todo período e base (inclusive períodos que só existem no release): ou não se aplica (null) ou é um
+// número finito. Nunca exceção, NaN ou infinito.
+function varrerIndicadores(m2, dlrel) {
+  const ruins = [], pers = new Set([...m2.periodos('dre', 'T'), ...m2.periodos('bp', 'T'), ...dlrel.periodos]);
+  for (const i of m2.indicadores) for (const base of ['T', 'S', '9M', 'AN', 'LTM']) for (const p of pers) {
+    let v; try { v = m2.ind(i.id, p, base); } catch (e) { ruins.push(i.id + ' ' + p + ' ' + base + ': ' + e.message); continue; }
+    if (v !== null && !Number.isFinite(v)) ruins.push(i.id + ' ' + p + ' ' + base + ' = ' + v);
+  }
+  return ruins.slice(0, 10);
+}
+// Cenário simulado "release antes do ITR": tira o último trimestre de todas as demonstrações da CVM e mantém os releases
+// (EBITDA Ajustado e dívida líquida). As conferências têm de continuar passando nesse estado intermediário.
+{
+  const ult = dre.periodos[dre.periodos.length - 1];
+  const tira = t => { const c = JSON.parse(JSON.stringify(t)); c.periodos = c.periodos.filter(p => p !== ult); (c.linhas || []).forEach(l => { delete l[ult]; }); return c; };
+  const dm = ld('cvm_dmpl'), dmS = Object.assign({}, dm, { periodos: dm.periodos.filter(p => p !== ult), valores: dm.valores.filter(x => x[0] !== ult) });
+  const acS = JSON.parse(JSON.stringify(acoes)); acS.periodos = acS.periodos.filter(p => p !== ult); delete acS.valores[ult];
+  const mS = D.criar({ dre: tira(dre), bp: tira(bp), dfc: tira(dfc), dva: tira(dva), dra: tira(dra), acoes: acS, b3, aj, dlrel, dmpl: dmS });
+  assert(!mS.periodos('dre', 'T').includes(ult) && aj.series[ult], 'cenário simulado montado');
+  const f = conferirEstruturas(mS, dmS, dlrel);
+  assert.deepStrictEqual(f, [], 'release antes do ITR (' + ult + ' simulado): estruturas ' + f.join(', ')); n++;
+  assert.deepStrictEqual(varrerIndicadores(mS, dlrel), [], 'release antes do ITR (' + ult + ' simulado): indicadores'); n++;
+}
+// gráficos-síntese (Demonstrações) e pontes (Comparar): fecham com os totais da CVM em todos os períodos e bases
+{
+  const dmpl = ld('cvm_dmpl'), m2 = D.criar({ dre, bp, dfc, dva, dra, acoes, b3, aj, dlrel, dmpl }), E = m2.estrutura;
+  const falhas = conferirEstruturas(m2, dmpl, dlrel);
   assert.deepStrictEqual(falhas, [], 'estruturas que não fecham: ' + falhas.slice(0, 10).join(', ')); n++;
+  assert.deepStrictEqual(varrerIndicadores(m2, dlrel), [], 'indicadores inválidos'); n++;
   // valores conferidos à mão (2T26)
   const b = E.balanco('2T26'); assert.strictEqual(b.ativo[0].v, g(bp, '1.01.01', '2T26') + (g(bp, '1.01.02', '2T26') || 0)); assert.strictEqual(b.passivo[5].v, g(bp, '2.03', '2T26')); n += 2;
   const pd = E.ponteDivida('2T25', '2T26'), fco = ['3T25', '4T25', '1T26', '2T26'].reduce((s_, p) => s_ + g(dfc, '6.01', p), 0);
