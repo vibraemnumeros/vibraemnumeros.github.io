@@ -1,9 +1,9 @@
 # B3 — última execução
 
-Executado em 2026-11-05 12:05 UTC
+Executado em 2026-11-05 12:51 UTC
 
 - anos reaproveitados do arquivo anterior: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
-- 2026 https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2026.ZIP → ok (HTTP 200, 98992554 bytes)
+- 2026: arquivo anual não baixado nesta execução (rápida); 210 pregões já gravados + arquivos diários
 - diário 2026-11-05 → ainda não publicado
 - diário 2026-11-06 → ainda não publicado
 

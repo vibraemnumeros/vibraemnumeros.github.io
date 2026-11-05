@@ -1,7 +1,18 @@
 {
  "grupo": "vibra_df",
- "atualizado_em": "2026-11-05T12:07:23Z",
+ "atualizado_em": "2026-11-05T12:53:04Z",
  "documentos": [
+  {
+   "protocolo": "RAD-NSD-162001",
+   "data_entrega": "2026-11-05",
+   "data_referencia": "2026-09-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras Intermediárias",
+   "assunto": "ITR 3T26",
+   "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=162001",
+   "arquivo": "2026-11-05_RAD-NSD-162001.txt",
+   "provisorio": true
+  },
   {
    "protocolo": "024295IPE300620260164365304-34",
    "data_entrega": "2026-08-14",

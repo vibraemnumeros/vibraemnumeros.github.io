@@ -1,14 +1,26 @@
 # EBITDA Ajustado (nota de segmentos das DFs) — última execução
 
-Executado em 2026-11-05 12:07 UTC
+Executado em 2026-11-05 12:53 UTC
 
 - 2019-02-26 : título não reconhecido: ''
 - 2020-03-11 : título não reconhecido: ''
 - 2021-03-09 : título não reconhecido: ''
 - 2026-05-06 Demonstrações Financeiras 1T26: ('A', 2026, 3): 'Total dos segmentos' publicado 3449.0 ≠ soma dos segmentos 3349.0 (segmentos + corporativo = consolidado 3204.0); usada a soma
 - 2026-05-08 Demonstrações Financeiras 1T26: ('A', 2026, 3): 'Total dos segmentos' publicado 3449.0 ≠ soma dos segmentos 3349.0 (segmentos + corporativo = consolidado 3204.0); usada a soma
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: ''
+- 2026-11-05 ITR 3T26: título não reconhecido: '  Demonstração Consolidada do Resultado por Área de Negócio - 30.09.2026'
+- 2026-11-05 ITR 3T26: título não reconhecido: '  Demonstração Consolidada do Resultado por Área de Negócio - 30.09.2025'
 
-Trimestres: 40 (4T16 a 3T26); da nota das DFs: 18; do release: 22 (4T16, 1T17, 2T17, …, 4T21, 3T26)
+Trimestres: 40 (4T16 a 3T26); da nota das DFs: 19; do release: 21 (4T16, 1T17, 2T17, …, 3T21, 4T21)
 
 ## DF × release (EBITDA Ajustado consolidado)
 
