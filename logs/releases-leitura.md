@@ -1,6 +1,6 @@
 # Releases — leitura dos números
 
-Executado em 2026-11-05 23:46 UTC
+Executado em 2026-11-06 06:44 UTC
 
 - 2018-03-13 Earnings Release 4Q17 and FY2017: ignorado (sem tabela de volume)
 Releases lidos: 43 · trimestres: 40 (4T16 a 3T26)
