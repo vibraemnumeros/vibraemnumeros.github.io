@@ -1,13 +1,12 @@
 # Atualização dos dados da CVM
 
-Execução (UTC): 2026-11-07 05:57:05
+Execução (UTC): 2026-11-09 20:47:33
 
 ## Coleta
 - DFP 2025: linhas da Vibra por demonstração: {'DRE': 76, 'BPA': 146, 'BPP': 240, 'DFC': 164, 'DVA': 92, 'DRA': 22, 'DMPL': 496, 'ações': 1}
 - DFP 2026: linhas da Vibra por demonstração: {'DRE': 0, 'BPA': 0, 'BPP': 0, 'DFC': 0, 'DVA': 0, 'DRA': 0, 'DMPL': 0, 'ações': 0}
 - ITR 2025: linhas da Vibra por demonstração: {'DRE': 380, 'BPA': 438, 'BPP': 722, 'DFC': 440, 'DVA': 266, 'DRA': 90, 'DMPL': 1400, 'ações': 3}
-- ITR 2026: linhas da Vibra por demonstração: {'DRE': 228, 'BPA': 292, 'BPP': 480, 'DFC': 300, 'DVA': 174, 'DRA': 66, 'DMPL': 960, 'ações': 2}
-- Lidos direto do RAD da CVM (a base aberta ainda não os tem): ITR 2026-09-30
+- ITR 2026: linhas da Vibra por demonstração: {'DRE': 380, 'BPA': 438, 'BPP': 720, 'DFC': 452, 'DVA': 266, 'DRA': 110, 'DMPL': 1456, 'ações': 3}
 - DRE 3.06.01 em 2016: conta mudou de conteúdo entre formulários do ano; trimestres sem valor
 - DRE 3.06.01.01 em 2016: conta mudou de conteúdo entre formulários do ano; trimestres sem valor
 - DRE 3.06.02 em 2016: conta mudou de conteúdo entre formulários do ano; trimestres sem valor

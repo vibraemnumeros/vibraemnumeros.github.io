@@ -1,7 +1,7 @@
 {
  "fonte": "Releases de resultados da Vibra (IPE da CVM), linha Dívida Líquida",
  "unidade": "R$ milhões",
- "atualizado_em": "2026-11-07T06:00:13Z",
+ "atualizado_em": "2026-11-09T20:48:55Z",
  "periodos": [
   "4T16",
   "1T17",
@@ -406,8 +406,8 @@
    "alav_divulgada": 1.0,
    "fonte": {
     "data": "2026-11-04",
-    "documento": "Dados Financeiros - Press-release",
-    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229"
+    "documento": "Press Release 3T26",
+    "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229&numSequencia=1108935&numVersao=1"
    }
   }
  }

@@ -1,9 +1,11 @@
 # B3 — última execução
 
-Executado em 2026-11-07 05:57 UTC
+Executado em 2026-11-09 20:48 UTC
 
 - anos reaproveitados do arquivo anterior: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
-- 2026 https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2026.ZIP → ok (HTTP 200, 102322138 bytes)
+- 2026: arquivo anual não baixado nesta execução (rápida); 212 pregões já gravados + arquivos diários
+- diário 2026-11-09 → ainda não publicado
+- diário 2026-11-10 → ainda não publicado
 
 Dias com cotação: 2209
 Primeiro: 2017-12-15 (BRDT3) · último: 2026-11-06 (VBBR3) a R$ 28.59

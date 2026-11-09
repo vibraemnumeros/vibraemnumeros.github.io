@@ -1,16 +1,15 @@
 {
  "fonte": "CVM — IPE, Press-release (releases de resultados)",
- "atualizado_em": "2026-11-07T05:59:56Z",
+ "atualizado_em": "2026-11-09T20:48:29Z",
  "releases": [
   {
-   "protocolo": "RAD-1584229",
+   "protocolo": "024295IPE041120260104090651-40",
    "data_entrega": "2026-11-04",
    "data_referencia": "2026-11-04",
-   "assunto": "Dados Financeiros - Press-release",
-   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229",
+   "assunto": "Press Release 3T26",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584229&numSequencia=1108935&numVersao=1",
    "arquivo": "2026-11-04_1584229.txt",
-   "paginas_bytes": 1676260,
-   "provisorio": true
+   "paginas_bytes": 1676260
   },
   {
    "protocolo": "024295IPE300620260142328555-32",

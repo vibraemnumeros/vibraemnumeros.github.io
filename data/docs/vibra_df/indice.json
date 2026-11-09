@@ -1,6 +1,6 @@
 {
  "grupo": "vibra_df",
- "atualizado_em": "2026-11-07T05:59:58Z",
+ "atualizado_em": "2026-11-09T20:48:39Z",
  "documentos": [
   {
    "protocolo": "RAD-NSD-162001",
@@ -12,6 +12,16 @@
    "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=162001",
    "arquivo": "2026-11-05_RAD-NSD-162001.txt",
    "provisorio": true
+  },
+  {
+   "protocolo": "024295IPE041120260120674080-22",
+   "data_entrega": "2026-11-04",
+   "data_referencia": "2026-11-04",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras Intermediárias",
+   "assunto": "Demonstrações Financeiras 3T26",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1584232&numSequencia=1108938&numVersao=1",
+   "arquivo": "2026-11-04_1584232.txt"
   },
   {
    "protocolo": "024295IPE300620260164365304-34",
