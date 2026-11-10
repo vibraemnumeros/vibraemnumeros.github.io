@@ -1,7 +1,18 @@
 {
 "fonte": "B3 — Plantão de Notícias (documentos entregues pela Vibra à CVM, com o link no sistema da CVM)",
-"atualizado_em": "2026-11-10T17:54:35Z",
+"atualizado_em": "2026-11-10T21:33:32Z",
 "noticias": [
+{
+"id": 3549815,
+"data_hora": "2026-11-10 18:32:46",
+"titulo": "VIBRA (VBBR-NM) - Sumario Reuniao Conselho Administracao - 04/11/26",
+"doc": "IPE",
+"categoria": "Reunião da Administração",
+"tipo": "Conselho de Administração",
+"data_ref": "2026-11-04",
+"assunto": "Sumario Reuniao Conselho Administracao",
+"protocolo": "1587280"
+},
 {
 "id": 3542874,
 "data_hora": "2026-11-05 08:46:22",

@@ -1,6 +1,6 @@
 # B3 — última execução
 
-Executado em 2026-11-10 17:54 UTC
+Executado em 2026-11-10 21:33 UTC
 
 - anos reaproveitados do arquivo anterior: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 - 2026: arquivo anual não baixado nesta execução (rápida); 213 pregões já gravados + arquivos diários
