@@ -1,6 +1,6 @@
 # Documentos — última execução
 
-Executado em 2026-11-14 00:08 UTC
+Executado em 2026-11-14 06:23 UTC
 
 - vibra_df: PDF do pacote do RAD (antes da base IPE semanal): ITR 3T26
 - vibra_df: 32 no índice, 0 novos, 0 falhas
@@ -11,4 +11,4 @@ Executado em 2026-11-14 00:08 UTC
 - ultrapar_df: 52 no índice, 0 novos, 0 falhas
 
 ## Estrutura do XML do FRE
-- erro: não é zip
+- diagnóstico diag_fre_xml falhou: File is not a zip file
