@@ -1,6 +1,6 @@
 # Atualização do Formulário de Referência (CVM)
 
-Execução (UTC): 2026-11-14 06:21:30
+Execução (UTC): 2026-11-16 20:31:26
 
 - 2010: sem formulário da Vibra
 - 2011: sem formulário da Vibra
@@ -9,8 +9,8 @@ Execução (UTC): 2026-11-14 06:21:30
 - 2014: sem formulário da Vibra
 - 2015: sem formulário da Vibra
 - 2016: sem formulário da Vibra
-- 2025: 1 documento(s), última versão v18 (recebida em 2026-04-29); 26 tabelas
-- 2026: 1 documento(s), última versão v5 (recebida em 2026-10-16); 26 tabelas
+- 2025: 1 documento(s), última versão v18 (recebida em 2026-04-29); 27 tabelas
+- 2026: 1 documento(s), última versão v6 (recebida em 2026-11-10); 26 tabelas
 
 ## Séries
 - remuneracao: 39 registros

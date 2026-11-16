@@ -1,7 +1,17 @@
 {
  "grupo": "ultrapar_df",
- "atualizado_em": "2026-11-14T06:23:51Z",
+ "atualizado_em": "2026-11-16T20:32:18Z",
  "documentos": [
+  {
+   "protocolo": "018465IPE300920260195050063-70",
+   "data_entrega": "2026-11-11",
+   "data_referencia": "2026-09-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Demonstrações Financeiras Adicionais",
+   "assunto": "DF inglês",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1587935&numSequencia=1112641&numVersao=1",
+   "arquivo": "2026-11-11_1587935.txt"
+  },
   {
    "protocolo": "018465IPE300620260104315426-96",
    "data_entrega": "2026-08-12",

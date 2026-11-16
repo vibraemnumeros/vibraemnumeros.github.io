@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-14T06:21:40Z",
+ "gerado_em": "2026-11-16T20:31:37Z",
  "nomes_tabelas": {
   "capital_social": "Capital social",
   "capital_social_aumento": "Aumentos de capital",
@@ -457,6 +457,7 @@
     "remuneracao_total_orgao": 12,
     "remuneracao_variavel": 12,
     "responsavel": 2,
+    "titular_valor_mobiliario": 1,
     "transacao_parte_relacionada": 5
    }
   },
@@ -465,12 +466,12 @@
    "documentos": [
     {
      "dt_refer": "2026-12-31",
-     "versao": 5,
-     "id": "161714",
-     "dt_receb": "2026-10-16",
-     "link": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=161714",
+     "versao": 6,
+     "id": "162238",
+     "dt_receb": "2026-11-10",
+     "link": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=162238",
      "categoria": "FRE WEB",
-     "versoes_no_ano": 5
+     "versoes_no_ano": 6
     }
    ],
    "tabelas": {
@@ -478,7 +479,7 @@
     "administrador_PCD": 5,
     "administrador_declaracao_genero": 5,
     "administrador_declaracao_raca": 5,
-    "administrador_membro_conselho_fiscal": 20,
+    "administrador_membro_conselho_fiscal": 19,
     "auditor": 2,
     "capital_social": 4,
     "distribuicao_capital": 1,

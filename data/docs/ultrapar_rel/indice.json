@@ -1,7 +1,17 @@
 {
  "grupo": "ultrapar_rel",
- "atualizado_em": "2026-11-14T06:23:51Z",
+ "atualizado_em": "2026-11-16T20:32:12Z",
  "documentos": [
+  {
+   "protocolo": "018465IPE300920260194462238-75",
+   "data_entrega": "2026-11-11",
+   "data_referencia": "2026-09-30",
+   "categoria": "Dados Econômico-Financeiros",
+   "tipo": "Press-release",
+   "assunto": "Release de Resultados 3T26",
+   "link": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1587928&numSequencia=1112634&numVersao=1",
+   "arquivo": "2026-11-11_1587928.txt"
+  },
   {
    "protocolo": "018465IPE300620260125441677-57",
    "data_entrega": "2026-08-12",

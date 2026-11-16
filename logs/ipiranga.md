@@ -1,6 +1,6 @@
 # Ipiranga — leitura dos releases da Ultrapar
 
-Executado em 2026-11-14 06:24 UTC
+Executado em 2026-11-16 20:32 UTC
 
 - 2017-02-22 Resultados do 4T16: tabela da Ipiranga não encontrada
 - 2017-05-10 Resultados do 1T17: tabela da Ipiranga não encontrada
@@ -8,7 +8,7 @@ Executado em 2026-11-14 06:24 UTC
 - 2024-05-08 Release de Resultados 1T24: tabela da Ipiranga não encontrada
 - 2024-08-07 Release de Resultados 2T24: tabela da Ipiranga não encontrada
 
-Trimestres: 35 (4T17 a 2T26); faltando: nenhum
+Trimestres: 36 (4T17 a 3T26); faltando: nenhum
 
 ## Alertas de consistência
 

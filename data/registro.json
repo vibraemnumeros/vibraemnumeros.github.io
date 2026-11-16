@@ -225,6 +225,7 @@
   "fre:2024:v19",
   "fre:2025:v18",
   "fre:2026:v5",
+  "fre:2026:v6",
   "prov:2018-02-01:0.56527346761",
   "prov:2018-04-25:0.38850186764",
   "prov:2018-12-11:0.49381274351",
@@ -283,6 +284,16 @@
   "release:4T25"
  ],
  "eventos": [
+  {
+   "data": "2026-11-10",
+   "tipo": "Formulário de Referência",
+   "titulo": "Formulário de Referência 2026, versão 6",
+   "detalhe": "",
+   "link": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=162238",
+   "chave": "fre:2026:v6",
+   "registrado_em": "2026-11-16T20:32:48Z",
+   "historico": false
+  },
   {
    "data": "2026-11-04",
    "tipo": "Release de resultados",
@@ -3094,5 +3105,5 @@
    "historico": true
   }
  ],
- "atualizado_em": "2026-11-14T06:24:11Z"
+ "atualizado_em": "2026-11-16T20:32:48Z"
 }
