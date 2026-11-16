@@ -1,14 +1,14 @@
 # Documentos — última execução
 
-Executado em 2026-11-16 20:32 UTC
+Executado em 2026-11-16 23:41 UTC
 
 - vibra_df: PDF do pacote do RAD (antes da base IPE semanal): ITR 3T26
 - vibra_df: 32 no índice, 0 novos, 0 falhas
 - vibra_proventos: 59 no índice, 0 novos, 0 falhas
 - vibra_rating: 17 no índice, 0 novos, 0 falhas
 - IPE Ultrapar: 898 documentos
-- ultrapar_rel: 41 no índice, 1 novos, 0 falhas
-- ultrapar_df: 53 no índice, 1 novos, 0 falhas
+- ultrapar_rel: 41 no índice, 0 novos, 0 falhas
+- ultrapar_df: 53 no índice, 0 novos, 0 falhas
 
 ## Estrutura do XML do FRE
 - 024295FRE31-12-2026v6.xml: 12250183 caracteres; cabeçalho '<?xml version="1.0" encoding="utf-8"?>\r\n<XmlFormularioReferencia xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi='
