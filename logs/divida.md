@@ -1,6 +1,6 @@
 # Dívida — última execução
 
-Executado em 2026-11-16 23:41 UTC
+Executado em 2026-11-17 07:55 UTC
 
 - 2018-03-16 : tabela de vencimentos não encontrada
 - 2019-02-26 : tabela de vencimentos não encontrada
