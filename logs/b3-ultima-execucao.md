@@ -1,10 +1,9 @@
 # B3 — última execução
 
-Executado em 2026-11-18 00:26 UTC
+Executado em 2026-11-18 07:27 UTC
 
 - anos reaproveitados do arquivo anterior: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
-- 2026: arquivo anual não baixado nesta execução (rápida); 218 pregões já gravados + arquivos diários
-- diário 2026-11-17 → ok (2 registros da Vibra/BOVA11)
+- 2026: arquivo anual não baixado nesta execução (rápida); 219 pregões já gravados + arquivos diários
 - diário 2026-11-18 → ainda não publicado
 - diário 2026-11-19 → ainda não publicado
 
