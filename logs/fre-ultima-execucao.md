@@ -1,6 +1,6 @@
 # Atualização do Formulário de Referência (CVM)
 
-Execução (UTC): 2026-11-20 07:14:49
+Execução (UTC): 2026-11-20 18:38:06
 
 - 2010: sem formulário da Vibra
 - 2011: sem formulário da Vibra
