@@ -1,4 +1,4 @@
-# MD&A redigido — 2026-11-20T00:11:09Z
+# MD&A redigido — 2026-11-20T07:15:46Z
 
 Modelo: claude-sonnet-5-5
 
