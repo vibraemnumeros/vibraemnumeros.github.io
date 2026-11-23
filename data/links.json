@@ -1,18 +1,13 @@
 {
- "verificado_em": "2026-11-09T21:56:42Z",
- "total": 1359,
- "ok": 1359,
+ "verificado_em": "2026-11-23T23:03:19Z",
+ "total": 1364,
+ "ok": 1364,
  "por_tipo": {
-  "documento": 1084,
-  "documento após nova tentativa": 272,
-  "página da CVM sem o arquivo (persistente)": 3
+  "documento": 1360,
+  "documento após nova tentativa": 2,
+  "página da CVM sem o arquivo (persistente)": 2
  },
  "paginas": [
-  {
-   "amostra": "ENET Download de Documento",
-   "n": 1,
-   "exemplo": "https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=607047&numSequencia=148756&numVersao=1"
-  },
   {
    "amostra": "Exibição de Arquivo DRI: Protocolo nº: Data do Documento Data do Envio &nbsp;",
    "n": 1,
