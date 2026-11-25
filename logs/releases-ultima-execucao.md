@@ -1,6 +1,6 @@
 # Releases — última execução
 
-Executado em 2026-11-25 08:32 UTC
+Executado em 2026-11-25 19:58 UTC
 
 
 Releases no índice: 44 · novos nesta execução: 0 · falhas: 0
