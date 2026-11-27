@@ -1,5 +1,5 @@
 # Guarda contra perda de dados — última execução
 
-Executado em 2026-11-26 19:41 UTC
+Executado em 2026-11-27 00:21 UTC
 
 Nenhum dado perdido: todas as atualizações só acrescentaram ou corrigiram valores.

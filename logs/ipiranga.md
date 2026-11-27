@@ -1,6 +1,6 @@
 # Ipiranga — leitura dos releases da Ultrapar
 
-Executado em 2026-11-26 19:41 UTC
+Executado em 2026-11-27 00:21 UTC
 
 - 2017-02-22 Resultados do 4T16: tabela da Ipiranga não encontrada
 - 2017-05-10 Resultados do 1T17: tabela da Ipiranga não encontrada
